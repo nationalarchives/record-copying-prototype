@@ -5,6 +5,6 @@
     <title>Record copying prototype | The National Archives</title>
 </head>
 <body>
-<h1>Record copying prototype</h1>
+<h1>Record copying prototype <?php echo('testing php on Axure'); ?></h1>
 </body>
 </html>
