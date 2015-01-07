@@ -12,5 +12,13 @@ Care should be taken therefore in applying these to the application, and they ha
 
 .order-option-main li {
     list-style-type: disc;
+}
 
+.prototype-pages {
+    padding-left: 2em;
+}
+
+.prototype-pages li {
+    list-style-image: url(../images/list-link-bullet.png);
+    padding-left: 0.5em;
 }

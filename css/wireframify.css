@@ -5,7 +5,7 @@
 }
 
 input[type='submit'] {
-    background-color: #616161;
+    background-color: #383838;
 }
 
 #account-controls-wrapper {
@@ -17,7 +17,7 @@ input[type='submit'] {
 }
 
 .discoveryPrimaryCallToActionLink {
-    background-color: orange;
+    background-color: #383838;
     color: #FFF;
 }
 

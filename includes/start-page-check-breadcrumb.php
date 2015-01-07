@@ -4,8 +4,7 @@
             <ul>
                 <li><a href="http://www.nationalarchives.gov.uk/">Home</a></li>
                 <li><a href="http://discovery.nationalarchives.gov.uk/" class="breadcrumbs">Discovery</a></li>
-                <li><a href="http://discovery.nationalarchives.gov.uk/results/r?_q=Nelson" class="breadcrumbs">Your
-                        search results</a> memoirs
+                <li><a href="http://discovery.nationalarchives.gov.uk/results/r?_q=Nelson" class="breadcrumbs">Request page check</a> W0 166/500
                 </li>
             </ul>
         </nav>
@@ -23,7 +22,9 @@
                         Discovery help
                     </a>
                 </li>
-                <a href="http://discovery.nationalarchives.gov.uk/sign-in" id="bookmarkLink">Bookmark</a>
+                <li>
+                    <a href="http://discovery.nationalarchives.gov.uk/sign-in" id="bookmarkLink">Bookmark</a>
+                </li>
             </ul>
         </nav>
     </div>

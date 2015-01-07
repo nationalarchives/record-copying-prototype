@@ -1,0 +1,55 @@
+.progress-tabs ul[role=tablist] {
+    margin-bottom: 0;
+    counter-reset: stepnumber;
+}
+
+.progress-tabs ul[role=tablist] li {
+    padding: 0.5em;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    border-bottom: none;
+}
+
+.progress-tabs ul[role=tablist] li:before {
+    counter-increment: stepnumber;
+    content: counter(stepnumber);
+    font-size: 0.8em;
+}
+
+.progress-tabs ul[role=tablist] li.selected {
+    background-image: none;
+    background-color: #DDD;
+    border-color: #DDD;
+    border-bottom: none;
+}
+
+.progress-tabs ul[role=tablist] li.selected button {
+    text-decoration: underline;
+    color: #000;
+}
+
+div[role=tabpanel] {
+    border: 2px solid #DDD;
+    padding: 1em;
+}
+
+div[role=tabpanel] ul {
+    padding-left: 1em;
+}
+
+div[role=tabpanel] li {
+    list-style-type: disc;
+}
+
+.page-check-form {
+    border: 1px solid #DDD;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #EEE;
+}
+
+.page-check-form textarea {
+    min-width: 98.2%;
+}
