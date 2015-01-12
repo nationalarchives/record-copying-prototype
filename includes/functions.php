@@ -10,3 +10,18 @@ function echoDate() {
     date_default_timezone_set('UTC');
     echo(date('l jS F Y h:i a'));
 }
+
+function scanFiles() {
+    if(getcwd()){
+        $currentDirectory = getcwd();
+        $files = scandir($currentDirectory);
+        $listItems = "";
+        foreach ($files as $value) {
+            $lastThreeCharacters = substr($value, -3);
+            if($lastThreeCharacters === "php"){
+                $listItems .= sprintf('<li><a href="%s">%s</a></li>', $value, $value);
+            }
+        }
+        printf('<ul class="prototype-pages">%s</ul>', $listItems);
+    }
+}
