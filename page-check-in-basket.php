@@ -5,9 +5,7 @@
 <body ng-app="recordCopying">
 <?php require_once('includes/header.php'); ?>
 <main id="page_wrap" class="container" role="main">
-    <?php
-        printf("The instructions are: %s", $instructions);
-    ?>
+    <?php require_once('includes/page-check-in-basket-content.php'); ?>
 </main>
 <?php require_once('includes/footer.php'); ?>
 <?php require_once('includes/footer-scripts.php'); ?>

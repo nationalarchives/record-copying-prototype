@@ -53,3 +53,48 @@ div[role=tabpanel] li {
 .page-check-form textarea {
     min-width: 98.2%;
 }
+
+/*
+Note:   the following styles - namespaced by '.basket-contents' will require changes to the HTML in the basket (which currently - incorrectly - uses dl, dd, and dt)
+        The CSS below is not optimal either, and will need to be refactored for SASS
+*/
+
+.basket-contents {
+
+}
+
+.basket-item {
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.basket-item ul {
+    padding: 1em 0;
+}
+
+.basket-item li {
+    padding: 0.5em 0;
+}
+
+.basket-item li:first-child {
+    border-top: 1px dotted #CCCCCC;
+}
+
+
+
+
+.basket-contents .basket-item strong {
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+}
+
+.basket-contents .basket-item span {
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+
+}
+
+/*
+END OF styles namespaced by '.basket-contents'
+*/

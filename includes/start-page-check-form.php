@@ -25,7 +25,7 @@
         </div>
         <div class="field-row">
             <label for="all-words-records">Instructions for copying</label>
-            <textarea name="instructions" id="" cols="30" rows="10" placeholder="Please enter your instructions for copying" required></textarea>
+            <textarea name="instructions" id="" cols="30" rows="10" placeholder="Please enter your instructions for copying"></textarea>
         </div>
         <div class="button-holder">
             <input type="submit" value="Add to basket"/>
