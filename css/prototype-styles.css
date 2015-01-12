@@ -92,9 +92,29 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
     vertical-align: top;
     display: inline-block;
     width: 60%;
-
 }
 
 /*
 END OF styles namespaced by '.basket-contents'
 */
+
+
+.email-mock {
+    margin: auto;
+    max-width: 70%;
+    background-color: #FFF;
+    padding: 2em;
+}
+
+.email-mock table {
+    text-align: left;
+}
+
+.email-mock table caption{
+    text-align: left;
+    padding-bottom: 0.2em;
+}
+
+.email-mock table tr:nth-child(odd) {
+    background-color: #EFEFEF;
+}
