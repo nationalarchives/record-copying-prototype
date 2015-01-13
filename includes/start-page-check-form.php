@@ -1,31 +1,33 @@
 <div class="page-check-form" ng-show="data.showPageCheckForm">
     <h2 class="inline">Tell us what you want copied</h2>
+
     <form method="get" action="page-check-in-basket.php">
         <div class="field-row">
             <label for="catalogue-reference"><strong>Catalogue reference:</strong></label>
             <input class="width-half" id="catalogue-reference" type="text" value="WO 166/500" disabled>
         </div>
-        <p>Tell us as much as you can about what you want copied, to help us carry out a successful page check. Where possible, please include:</p>
+        <p>Please tell us as much as you can about what you want copied. Where possible, please include page numbers,
+            dates and names.</p>
+        <p>In 2014, x% of page checks that we carried out revealed that we were not able to copy the information that
+            had been requested. The main two reasons for this were that:</p>
         <ul>
-            <li>Page numbers</li>
-            <li>Dates</li>
-            <li>Names</li>
+            <li>The request did not include enough information</li>
+            <li>The requested information did not match the document structure</li>
         </ul>
-        <p>If you do not have this information you may want to try our <a href="#">paid search service</a>, use an independent researcher or
-            <a href="#">visit The National Archives</a></p>
-        <p>If you need a <a href="#">certified copy</a> for legal reasons please let us know the instructions</p>
-        <div class="emphasis-block">
-            <h3>Help us carry out a successful page check</h3>
-            <p>In 2014, x% of page checks were unsuccessful. Common reasons for this were that:</p>
-            <ul>
-                <li>the request did not include enough information</li>
-                <li>the information could not be found within the allocated time</li>
-            </ul>
-            <p>To maximise the chance of your page check being successful, please read our <a href="#">recommendations for successful page checks</a>.</p>
-        </div>
+
+        <p>To maximise the chance of your page check request being successful please read our <a href="#">recommendations
+                for successful page checks</a>.</p>
+
+        <h3>What should I do if I don't have this information?</h3>
+        <p>You may want to try our <a href="#">paid search service</a> or <a href="">visit The National Archives</a>.</p>
+        <p>Alternatively, <a href="">hiring an independent paid researcher</a> might be cheaper.</p>
+        <p>If you need a certified copy for legal reasons please let us know in the instructions</p>
+
         <div class="field-row">
             <label for="all-words-records">Instructions for copying</label>
-            <textarea name="instructions" id="" cols="30" rows="10" placeholder="Please enter your instructions for copying"></textarea>
+            <textarea name="instructions" id="" cols="30" rows="10"
+                      placeholder="Tell us, in as much detail as possible, what you would like to be copied."></textarea>
+            <p></p>
         </div>
         <div class="button-holder">
             <input type="submit" value="Add to basket"/>

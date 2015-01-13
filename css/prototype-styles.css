@@ -130,6 +130,10 @@ END OF styles namespaced by '.basket-contents'
     background-color: #EFEFEF;
 }
 
+.start-page-check .you-choose {
+    display: none;
+}
+
 .your-orders table {
     width: 100%;
     text-align: left;

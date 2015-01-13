@@ -13,12 +13,12 @@
 
                     <p>You can:</p>
                     <ul>
-                        <li>Make a request for a copy to be digitised and emailed or sent to you</li>
-                        <li>View the original for free on site at <a href="http://www.nationalarchives.gov.uk">The
+                        <li>pay for a copy to be digitised and emailed or posted to you</li>
+                        <li>view the original for free on site at <a href="http://www.nationalarchives.gov.uk">The
                                 National Archives</a></li>
-                        <li>Pay a researcher to carry out research on your behalf</li>
+                        <li>pay a researcher to carry out research on your behalf</li>
                     </ul>
-                    <strong>This record has not been digitised and cannot be downloaded.</strong>
+                    <strong>This record has not been digitised and so it cannot be downloaded.</strong>
 
                     <div class="order-buttons">
                         <ul>

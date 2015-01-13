@@ -6,8 +6,9 @@
 <main id="page_wrap" class="container" role="main">
     <div class="email-mock">
         <p>Dear x,</p>
-        <p>Your page check has been completed, but we're sorry to tell you that it hasn't been successful. This is because [explanation]</p>
-        <p>You can pay someone to carry out research on your behalf, or you can come to The National Archives to view the original records for free. Alternatively, you may wish to submit a new request.</p>
+        <p>Your page check has been completed, but we’re sorry to tell you that it has shown that we are unable to carry out the copying that you have requested. This is because xxx
+        </p>
+        <p>You can pay someone to <a href="#">carry out research on your behalf</a>, or you can <a href="">come to The National Archives to view the original records for free</a>. Alternatively, you may wish to submit a new request.</p>
         <p>The records copying team</p>
     </div>
 </main>

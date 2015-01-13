@@ -7,7 +7,6 @@
                 <h1>
                     <span>
                         <span>
-
                             Your shopping basket <span>(1  item)</span>
                         </span>
                     </span>
@@ -34,14 +33,12 @@
                 </ul>
 
                 <div class="holding-box basket-contents">
-                    <h2 class="inline clr">Record copying</h2>
-                    <br/>
-                    <h3 class="inline">Page check request</h3>
+                    <h2 class="inline clr">Record copying - Page check request</h2>
                     <ul class="basket-item">
                         <li><strong>Document reference:</strong> <span>WO 166/500</span></li>
                         <li><strong>Document title:</strong> <span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
                         <li><strong>Instructions for copying:</strong> <span><?php echo($instructions); ?></span></li>
-                        <li><strong>Price:</strong> <span>£10</span></li>
+                        <li><strong>Cost:</strong> <span>£10</span></li>
                     </ul>
                     <div class="checkout">
                         <a href="details-page.php"
