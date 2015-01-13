@@ -12,6 +12,18 @@
     border-bottom: none;
 }
 
+.progress-tabs ul[role=tablist] li.completed-step {
+
+}
+
+.progress-tabs ul[role=tablist] li.completed-step button {
+    color: #777;
+}
+
+.progress-tabs ul[role=tablist] li.completed-step button:after {
+    content: ' (completed)';
+}
+
 .progress-tabs ul[role=tablist] li:before {
     counter-increment: stepnumber;
     content: counter(stepnumber);
@@ -98,7 +110,6 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
 END OF styles namespaced by '.basket-contents'
 */
 
-
 .email-mock {
     margin: auto;
     max-width: 70%;
@@ -117,4 +128,18 @@ END OF styles namespaced by '.basket-contents'
 
 .email-mock table tr:nth-child(odd) {
     background-color: #EFEFEF;
+}
+
+.your-orders table {
+    width: 100%;
+    text-align: left;
+}
+
+.your-orders table td, .your-orders table th {
+    width: 50%;
+    vertical-align: top;
+}
+
+.your-orders table caption {
+    display: none;
 }
