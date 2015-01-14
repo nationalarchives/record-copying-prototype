@@ -2,7 +2,7 @@
     <div class="col ends-at-two-thirds clr holding-box">
         <div class="breather">
             <h1 class="inline">
-                DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion.
+                [Quick test] DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion.
             </h1>
 
             <div class="order-option-wrapper">
