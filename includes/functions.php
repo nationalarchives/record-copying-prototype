@@ -25,3 +25,12 @@ function scanFiles() {
         printf('<ul class="prototype-pages">%s</ul>', $listItems);
     }
 }
+
+function checkFileName($name) {
+    $currentFile = basename($_SERVER['PHP_SELF']);
+    if($currentFile === $name) {
+        return true;
+    } else {
+        return false;
+    }
+}

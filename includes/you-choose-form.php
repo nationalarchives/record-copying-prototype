@@ -1,5 +1,3 @@
-<p>If we are able to process your order, you decide how you would like to receive the copy that you have requested, by
-    email or by post. You confirm your order and pay for your copy.</p>
 <div class="you-choose">
 
     <h2 class="inline">Step 3. You choose</h2>
@@ -22,15 +20,15 @@
                 </tr>
                 <tr>
                     <th scope="row">Pages A3</th>
-                    <td>25</td>
+                    <td>{{ a3Pages }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Pages A3+</th>
-                    <td>3</td>
+                    <td>{{ a3PlusPages }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Total pages</th>
-                    <td>28</td>
+                    <td>{{ totalPages() }}</td>
                 </tr>
             </table>
         </div>

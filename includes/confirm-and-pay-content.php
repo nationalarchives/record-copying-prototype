@@ -1,5 +1,5 @@
 <?php require_once('confirm-and-pay-breadcrumb.php'); ?>
-    <section class="row" ng-controller="startPageCheck">
+    <section class="row" ng-controller="confirmAndPay">
         <div class="col starts-at-full clr holding-box">
             <div class="heading-holding-banner">
                 <h1><span><span>Confirm and pay</span></span></h1>
