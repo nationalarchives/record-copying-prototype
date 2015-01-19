@@ -153,3 +153,14 @@ END OF styles namespaced by '.basket-contents'
     margin-top: 1em;
     padding-top: 1em;
 }
+
+.orderItem {
+    border: 1px solid #DDD;
+    background: #fff;
+    padding: 1em 0 1em 2%;
+    position: relative;
+}
+
+ul.sibling li {
+    clear: both;
+}

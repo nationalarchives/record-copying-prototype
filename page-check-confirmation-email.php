@@ -15,7 +15,7 @@
             <tr><th scope="row">Cost: </th><td>£10</td></tr>
             <tr><th scope="row">Date: </th><td><?php echoDate(); ?></td></tr>
         </table>
-        <p>Go to <a href="confirm-and-pay.php">Your orders</a> to view your order status at any time. If you have any questions about your order, please contact us on x</p>
+        <p>Go to <a href="your-orders.php">Your orders</a> to view your order status at any time. If you have any questions about your order, please contact us on x</p>
         <p>The records copying team</p>
     </div>
 </main>
