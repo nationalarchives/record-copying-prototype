@@ -31,3 +31,11 @@ app.controller("startPageCheck", function($scope, $log) {
         $scope.data.showPageCheckForm = !$scope.data.showPageCheckForm;
     }
 });
+
+app.controller("confirmAndPay", function ($scope) {
+    $scope.a3Pages = "25";
+    $scope.a3PlusPages = "3"
+    $scope.totalPages = function () {
+        return $scope.a3Pages + $scope.a3PlusPages;
+    }
+})
