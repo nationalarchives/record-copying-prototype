@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <?php require_once('includes/head.php'); ?>
-<body class="your-orders" ng-app="recordCopying">
+<body class="confirm-and-pay" ng-app="recordCopying">
 <?php require_once('includes/header.php'); ?>
 <main id="page_wrap" class="container" role="main">
     <?php require_once('includes/confirm-and-pay-content.php'); ?>

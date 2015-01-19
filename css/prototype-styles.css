@@ -134,16 +134,22 @@ END OF styles namespaced by '.basket-contents'
     display: none;
 }
 
-.your-orders table {
+.confirm-and-pay table {
     width: 100%;
     text-align: left;
 }
 
-.your-orders table td, .your-orders table th {
+.confirm-and-pay table td, .confirm-and-pay table th {
     width: 50%;
     vertical-align: top;
 }
 
-.your-orders table caption {
+.confirm-and-pay table caption {
     display: none;
+}
+
+.copying-options {
+    border-top: 1px solid #DDD;
+    margin-top: 1em;
+    padding-top: 1em;
 }

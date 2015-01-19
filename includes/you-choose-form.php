@@ -20,11 +20,11 @@
                 </tr>
                 <tr>
                     <th scope="row">Pages A3</th>
-                    <td>{{ a3Pages }}</td>
+                    <td>{{ quantities.a3Pages }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Pages A3+</th>
-                    <td>{{ a3PlusPages }}</td>
+                    <td>{{ quantities.a3PlusPages }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Total pages</th>
@@ -48,10 +48,28 @@
             </table>
         </div>
     </div>
-    <div>
-        <h3 class="copying-options">
+    <div class="copying-options">
+        <h3>
             Copying options
         </h3>
+        <form>
+            <fieldset>
+                <input value="digital" name="deliveryType" id="digital" type="radio" ng-model="options.deliveryType"
+                       ng-change="{{ calculateTotalPrice(options.deliveryType, options.printingOption) }}"/><label for="digital">Digital copy
+                    (email delivery)</label>
+                <input value="paper" name="deliveryType" id="paper" type="radio" ng-model="options.deliveryType"
+                       ng-change="{{ calculateTotalPrice(options.deliveryType, options.printingOption)  }}"/><label for="paper">Paper copy
+                    (postal delivery)</label>
+            </fieldset>
+            <fieldset ng-show="options.deliveryType == 'paper'">
+                <h3>Printing options</h3>
+                <legend>Printing options</legend>
+                <input name="printingOption" value="colour" type="radio" id="colour" type="radio" ng-model="options.printingOption" /><label for="colour">Colour</label>
+                <input name="printingOption" value="mono" type="radio" id="mono" type="radio" ng-model="options.printingOption" /><label for="mono">Black and white</label>
+            </fieldset>
+        </form>
+        <span>Total price is : <strong>{{ totalPrice | currency }}</strong></span>
+
     </div>
 
 </div>
