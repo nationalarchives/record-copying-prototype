@@ -164,3 +164,16 @@ END OF styles namespaced by '.basket-contents'
 ul.sibling li {
     clear: both;
 }
+
+.proceed-links {
+    padding: 1em 2em;
+    background-color: #383838;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.proceed-links a {
+    color: #EFEFEF;
+    font-size: 0.85em;
+}

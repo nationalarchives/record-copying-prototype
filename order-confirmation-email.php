@@ -5,12 +5,22 @@
 <main id="page_wrap" class="container" role="main">
     <div class="email-mock">
         <p>Dear x,</p>
-        <p>Thank you for your purchase. Your payment has been made and your order is currently being processed. Your unique reference number is: x</p>
+
+        <p>Thank you for your purchase. Your payment has been made and your order is currently being processed. Your
+            unique reference number is: x</p>
+
         <p>Order summary: x</p>
-        <p>You chose to receive your copy by x. You should receive your copy before [date]. Track this order at any time by visiting Your orders.</p>
+
+        <p>You chose to receive your copy by x. You should receive your copy before [date]. Track this order at any time
+            by visiting Your orders.</p>
+
         <p>If you have any questions about your order, please contact us at x.</p>
+
         <p>The records copying team</p>
     </div>
 </main>
+<ul class="proceed-links">
+    <li><a href="page-check-completed-successful-email.php">Proceed to next step in the process</a></li>
+</ul>
 </body>
 </html>

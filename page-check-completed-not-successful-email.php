@@ -12,5 +12,8 @@
         <p>The records copying team</p>
     </div>
 </main>
+<ul class="proceed-links">
+    <li><a href="page-check-completed-successful-email.php">View email for successful page check request</a></li>
+</ul>
 </body>
 </html>
