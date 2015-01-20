@@ -6,7 +6,6 @@
     <div class="email-mock">
         <p>Dear x,</p>
         <p>Thank you for requesting a page check from The National Archives. Your payment has been received, and your unique page check reference number is x</p>
-
         <p>We will email you before [date] to confirm whether your page check has been successful or not..</p>
         <table>
             <caption>Order summary</caption>
