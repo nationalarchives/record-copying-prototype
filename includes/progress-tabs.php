@@ -18,7 +18,7 @@
     </ul>
     <div aria-labelledby="request-page-check" role="tabpanel">
         <p>Tell us the information you would like to be copied, so that a member of staff can carry out a page check.
-            This will cost £10. <a href="#">What if I don't know this?</a></p> 
+            This will cost <?php echo(PAGE_CHECK_PRICE); ?>. <a href="#">What if I don't know this?</a></p> 
         <div class="button-holder">
             <a href="" class="discoveryPrimaryCallToActionLink" ng-click="togglePageCheckForm()">Get
                 started</a>
@@ -27,7 +27,7 @@
     </div>
     <div aria-labelledby="we-check" role="tabpanel">
         <p>A member of staff will manually check the pages of the record to determine whether
-            we can fulfil your request. This costs £10 per request, whether it is successful or not,
+            we can fulfil your request. This costs <?php echo(PAGE_CHECK_PRICE); ?> per request, whether it is successful or not,
             to cover the cost of the service.</p>
 
         <p>We will email you within 10 working days to confirm whether we can make the copy

@@ -38,7 +38,7 @@
                         <li><strong>Document reference:</strong> <span>WO 166/500</span></li>
                         <li><strong>Document title:</strong> <span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
                         <li><strong>Instructions for copying:</strong> <span><?php echo($instructions); ?></span></li>
-                        <li><strong>Cost:</strong> <span>£10</span></li>
+                        <li><strong>Cost:</strong> <span><?php echo(PAGE_CHECK_PRICE); ?></span></li>
                     </ul>
                     <div class="checkout">
                         <a href="details-page.php"

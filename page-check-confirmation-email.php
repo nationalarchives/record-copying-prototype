@@ -11,7 +11,7 @@
             <caption>Order summary</caption>
             <tr><th scope="row">Document reference: </th><td>WO 166/500</td></tr>
             <tr><th scope="row">Instructions for copying: </th><td>1</td></tr>
-            <tr><th scope="row">Cost: </th><td>£10</td></tr>
+            <tr><th scope="row">Cost: </th><td><?php echo(PAGE_CHECK_PRICE); ?></td></tr>
             <tr><th scope="row">Date: </th><td><?php echoDate(); ?></td></tr>
         </table>
         <p>Go to <a href="your-orders.php">Your orders</a> to view your order status at any time. If you have any questions about your order, please contact us on x</p>

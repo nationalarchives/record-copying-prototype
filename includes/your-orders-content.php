@@ -18,7 +18,7 @@
                 <li><strong>Document reference:</strong> <span>WO 166/500</span></li>
                 <li><strong>Document title:</strong> <span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
                 <li><strong>Instructions for copying:</strong> <span>Looking for information related to John Smith from the Reconnaissance Battalion between the dates March and April 1941.</span></li>
-                <li><strong>Cost:</strong> <span>£10</span></li>
+                <li><strong>Cost:</strong> <span><?php echo(PAGE_CHECK_PRICE); ?></span></li>
             </ul>
         </div>
     </div>

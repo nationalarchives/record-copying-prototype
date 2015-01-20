@@ -14,7 +14,7 @@
                     page check to determine whether we can process your order. To carry out a page check, a member of
                     staff will read your request, and collect the records you would like copied from our repositories.
                     They will then manually check the pages of the record and assess whether we will be able to make a
-                    copy, based on the information that you have provided us with. The page check costs £10, to cover
+                    copy, based on the information that you have provided us with. The page check costs <?php echo(PAGE_CHECK_PRICE); ?>, to cover
                     the cost of this service, and is non-refundable. This cost is set by the Treasury.</p>
 
                 <p>If the page check shows that we can make a copy for you, based on the information you've provided us
