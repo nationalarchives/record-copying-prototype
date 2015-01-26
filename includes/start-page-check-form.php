@@ -29,7 +29,7 @@
         <p>If you need a certified copy for legal reasons please let us know in the instructions</p>
 
         <div class="field-row">
-            <label for="certified">Certified copy</label>
+            <input type="checkbox" id="certified"/><label for="certified">Certified copy</label>
         </div>
         <div class="field-row">
             <label for="all-words-records">Instructions for copying</label>
