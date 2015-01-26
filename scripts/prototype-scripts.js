@@ -1,22 +1,24 @@
 // jQuery - will refactor to Angular for production
 
-$tabs = $("ul[role='tablist'] li");
-$tabs.tabify();
+$(document).ready(function(){
+    $tabs = $("ul[role='tablist'] li");
+    $tabs.tabify();
 
-if ($(".confirm-and-pay").length) {
-    (console && console.log('Class .confirm-and-pay found, indicating current page is confirm-and-pay'));
+    if ($(".confirm-and-pay").length) {
+        (console && console.log('Class .confirm-and-pay found, indicating current page is confirm-and-pay'));
 
-    // Adding 'completed-step' class to first two tabs
+        // Adding 'completed-step' class to first two tabs
 
-    $tabs.slice(0, 2).each(function () {
-        var $this = $(this);
-        $this.addClass('completed-step');
-    });
+        $tabs.slice(0, 2).each(function () {
+            var $this = $(this);
+            $this.addClass('completed-step');
+        });
 
-    // Triggering the tabify() behaviour on the third tab
-    $tabs.eq(2).click();
+        // Triggering the tabify() behaviour on the third tab
+        $tabs.eq(2).click();
+    }
+});
 
-}
 
 // Angular
 

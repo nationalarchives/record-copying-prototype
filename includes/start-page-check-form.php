@@ -8,6 +8,7 @@
         </div>
         <p>Please tell us as much as you can about what you want copied. Where possible, please include page numbers,
             dates and names.</p>
+
         <p>In 2014, x% of page checks that we carried out revealed that we were not able to copy the information that
             had been requested. The main two reasons for this were that:</p>
         <ul>
@@ -19,14 +20,22 @@
                 for successful page checks</a>.</p>
 
         <h3>What should I do if I don't have this information?</h3>
-        <p>You may want to try our <a href="#">paid search service</a> or <a href="">visit The National Archives</a>.</p>
+
+        <p>You may want to try our <a href="#">paid search service</a> or <a href="">visit The National Archives</a>.
+        </p>
+
         <p>Alternatively, <a href="">hiring an independent paid researcher</a> might be cheaper.</p>
+
         <p>If you need a certified copy for legal reasons please let us know in the instructions</p>
 
+        <div class="field-row">
+            <label for="certified">Certified copy</label>
+        </div>
         <div class="field-row">
             <label for="all-words-records">Instructions for copying</label>
             <textarea name="instructions" id="" cols="30" rows="10"
                       placeholder="Tell us, in as much detail as possible, what you would like to be copied."></textarea>
+
             <p></p>
         </div>
         <div class="button-holder">
