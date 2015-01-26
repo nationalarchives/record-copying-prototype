@@ -43,7 +43,7 @@
                     <div class="checkout">
                         <a href="details-page.php"
                            class="call-to-action-link secondary">Continue Shopping</a>
-                        <a href="page-check-confirmation-email.php"
+                        <a href="checkout-abstract.php"
                            class="discoveryPrimaryCallToActionLink">Checkout</a>
                     </div>
                     <?php require_once('worldpay-images.php'); ?>

@@ -52,21 +52,52 @@
         <h3>
             Copying options
         </h3>
+
         <form>
             <fieldset>
                 <input value="digital" name="deliveryType" id="digital" type="radio" ng-model="options.deliveryType"
-                       ng-change="{{ calculateTotalPrice(options.deliveryType, options.printingOption) }}"/><label for="digital">Digital copy
+                       ng-change="{{ calculateTotalPrice(options.deliveryType, options.printingOption) }}"/><label
+                    for="digital">Digital copy
                     (email delivery)</label>
                 <input value="paper" name="deliveryType" id="paper" type="radio" ng-model="options.deliveryType"
-                       ng-change="{{ calculateTotalPrice(options.deliveryType, options.printingOption)  }}"/><label for="paper">Paper copy
+                       ng-change="{{ calculateTotalPrice(options.deliveryType, options.printingOption)  }}"/><label
+                    for="paper">Paper copy
                     (postal delivery)</label>
             </fieldset>
             <fieldset ng-show="options.deliveryType == 'paper'">
                 <h3>Printing options</h3>
                 <legend>Printing options</legend>
-                <input name="printingOption" value="colour" type="radio" id="colour" type="radio" ng-model="options.printingOption" /><label for="colour">Colour</label>
-                <input name="printingOption" value="mono" type="radio" id="mono" type="radio" ng-model="options.printingOption" /><label for="mono">Black and white</label>
+                <input name="printingOption" value="colour" type="radio" id="colour" type="radio"
+                       ng-model="options.printingOption"/><label for="colour">Colour</label>
+                <input name="printingOption" value="mono" type="radio" id="mono" type="radio"
+                       ng-model="options.printingOption"/><label for="mono">Black and white</label>
             </fieldset>
+            <fieldset ng-show="options.deliveryType == 'paper'">
+                <h3>Delivery address</h3>
+                <legend>Delivery address</legend>
+                <p>Where would you like your copying delivered?</p>
+                <div class="field-row">
+                    <input name="deliveryAddress" value="stored" type="radio" id="currentAddress"
+                           ng-model="options.deliveryAddress"/>
+                    <label for="currentAddress">41 Park Road, Richmond, TW1 8UX, United Kingdom</label>
+                </div>
+                <div class="field-row">
+                    <input name="deliveryAddress" value="new" type="radio" id="enterNewAddress"
+                           ng-model="options.deliveryAddress"/>
+                    <label for="enterNewAddress">Delivery to a different address</label>
+                </div>
+            </fieldset>
+            <div class="grid-within-grid-two-item clr">
+                <div>
+                    <fieldset>
+                        <legend for="countries">New address</legend>
+                        <select name="countries" id="countries" ng-model="options.selectedCountry">
+                            <option ng-repeat="country in options.availableCountries" value="{{country}}">{{country}}</option>
+                        </select>
+                    </fieldset>
+                </div>
+            </div>
+
         </form>
         <span>Total price is : <strong>{{ totalPrice | currency }}</strong></span>
 

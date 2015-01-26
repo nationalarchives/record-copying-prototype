@@ -12,14 +12,31 @@
         </div>
         <div class="breather basket-contents">
             <h2 class="inline">Record copying</h2>
-            <ul class="basket-item">
-                <li><strong>Number:</strong> <span>RC000051</span></li>
-                <li><strong>Status:</strong> <span>Page check in progress</span></li>
-                <li><strong>Document reference:</strong> <span>WO 166/500</span></li>
-                <li><strong>Document title:</strong> <span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
-                <li><strong>Instructions for copying:</strong> <span>Looking for information related to John Smith from the Reconnaissance Battalion between the dates March and April 1941.</span></li>
-                <li><strong>Cost:</strong> <span><?php echo(PAGE_CHECK_PRICE); ?></span></li>
-            </ul>
+            <?php if ($state == 'page-check-in-progress') : ?>
+                <ul class="basket-item">
+                    <li><strong>Number: </strong><span>RC000051</span></li>
+                    <li><strong>Status: </strong><span>Page check in progress</span></li>
+                    <li><strong>Document reference: </strong><span>WO 166/500</span></li>
+                    <li><strong>Document title: </strong>
+                        <span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
+                    <li><strong>Instructions for copying: </strong><span>Looking for information related to John Smith from the Reconnaissance Battalion between the dates March and April 1941.</span>
+                    </li>
+                    <li><strong>Cost:</strong> <span><?php echo(PAGE_CHECK_PRICE); ?></span></li>
+                </ul>
+            <?php endif; ?>
+            <?php if ($state == 'page-check-completed') : ?>
+                <ul class="basket-item">
+                    <li><strong>Number: </strong><span>RC000051</span></li>
+                    <li><strong>Status: </strong><span>Page check completed</span></li>
+                    <li><strong>Document reference: </strong><span>WO 166/500</span></li>
+                    <li><strong>Document title: </strong><span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
+                    <li><strong>Instructions for copying: </strong><span>Looking for information related to John Smith from the Reconnaissance Battalion between the dates March and April 1941.</span>
+                    </li>
+                    <li><strong>Notes to customer: </strong><span>All pages available for copying</span></li>
+                    <li><strong>Cost: </strong><span><?php echo(PAGE_CHECK_PRICE); ?></span></li>
+                </ul>
+                <div class="button-holder"><a class="discoveryPrimaryCallToActionLink" href="confirm-and-pay.php">Proceed with order</a></div>
+            <?php endif; ?>
         </div>
     </div>
     <div class="col ends-at-one-third box">
@@ -39,3 +56,4 @@
         </div>
     </div>
 </div>
+<a href="page-check-completed-successful-email.php">View email sent on completion</a>

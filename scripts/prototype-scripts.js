@@ -48,8 +48,16 @@ app.controller("confirmAndPay", function ($scope, $log) {
     };
 
     $scope.options = {
-        deliveryType : "digital",
-        printingOption : "colour"
+        deliveryType : "paper",
+        printingOption : "colour",
+        deliveryAddress : "stored",
+        selectedCountry : 'United Kingdom',
+        availableCountries : [
+            'United Kingdom',
+            'Australia',
+            'New Zealand',
+            'Zambia'
+        ]
     };
 
     $scope.totalPrice = false;

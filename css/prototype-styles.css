@@ -177,3 +177,22 @@ ul.sibling li {
     color: #EFEFEF;
     font-size: 0.85em;
 }
+
+.vertically-centered {
+    height: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.instruction-box {
+    border-radius: 1em;
+    padding: 2em;
+    background-color: #CDCDCD;
+    color: #000;
+}
+
+.button-holder {
+    margin-bottom: 1em;
+}
