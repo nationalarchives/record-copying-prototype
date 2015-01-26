@@ -76,6 +76,7 @@
                 <h3>Delivery address</h3>
                 <legend>Delivery address</legend>
                 <p>Where would you like your copying delivered?</p>
+
                 <div class="field-row">
                     <input name="deliveryAddress" value="stored" type="radio" id="currentAddress"
                            ng-model="options.deliveryAddress"/>
@@ -87,19 +88,35 @@
                     <label for="enterNewAddress">Delivery to a different address</label>
                 </div>
             </fieldset>
-            <div class="grid-within-grid-two-item clr">
+            <div class="grid-within-grid-two-item clr" ng-show="options.deliveryAddress == 'new'">
                 <div>
                     <fieldset>
                         <legend for="countries">New address</legend>
-                        <select name="countries" id="countries" ng-model="options.selectedCountry">
-                            <option ng-repeat="country in options.availableCountries" value="{{country}}">{{country}}</option>
-                        </select>
+                        <div class="field-row">
+                            <label for="country">Country</label><select name="countries" id="countries" ng-model="options.selectedCountry">
+                                <option ng-repeat="country in options.availableCountries" value="{{country}}">
+                                    {{country}}
+                                </option>
+                            </select>
+                        </div>
+                        <div class="field-row">
+                            <label for="house">House or building number</label><input id="house" type="text"/>
+                        </div>
+                        <div class="field-row">
+                            <label for="street">Street name</label><input id="street" type="text"/>
+                        </div>
+                        <div class="field-row">
+                            <label for="county">County</label><input id="county" type="text"/>
+                        </div>
+                        <div class="field-row">
+                            <label for="state">State</label><input id="state" type="text"/>
+                        </div>
                     </fieldset>
                 </div>
             </div>
-
         </form>
-        <span>Total price is : <strong>{{ totalPrice | currency }}</strong></span>
+        <span>Total price of copying is : <strong>{{ totalPrice | currency }}</strong> (Postage will vary according to location)</span>
+        <div class="button-holder"><a class="discoveryPrimaryCallToActionLink" href="">Add to basket</a></div>
 
     </div>
 

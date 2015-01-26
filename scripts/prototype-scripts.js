@@ -3,12 +3,12 @@
 $tabs = $("ul[role='tablist'] li");
 $tabs.tabify();
 
-if($(".confirm-and-pay").length) {
+if ($(".confirm-and-pay").length) {
     (console && console.log('Class .confirm-and-pay found, indicating current page is confirm-and-pay'));
 
     // Adding 'completed-step' class to first two tabs
 
-    $tabs.slice(0,2).each(function(){
+    $tabs.slice(0, 2).each(function () {
         var $this = $(this);
         $this.addClass('completed-step');
     });
@@ -22,11 +22,11 @@ if($(".confirm-and-pay").length) {
 
 var app = angular.module("recordCopying", []);
 
-app.controller("startPageCheck", function($scope, $log) {
+app.controller("startPageCheck", function ($scope, $log) {
     $scope.data = {};
     $scope.data.showPageCheckForm = false;
 
-    $scope.togglePageCheckForm = function() {
+    $scope.togglePageCheckForm = function () {
         $log.log('togglePageCheckForm function called');
         $scope.data.showPageCheckForm = !$scope.data.showPageCheckForm;
     }
@@ -35,37 +35,35 @@ app.controller("startPageCheck", function($scope, $log) {
 app.controller("confirmAndPay", function ($scope, $log) {
 
     $scope.quantities = {
-        a3Pages : 25,
-        a3PlusPages : 3
+        a3Pages: 25,
+        a3PlusPages: 3
     };
 
     $scope.prices = {
-        a3PaperColourPrice : 3.00,
-        a3PaperMonoPrice : 1.00,
-        a3PlusPaperPrice : 13.00,
-        a3DigitalPrice : 2.80,
-        a3PlusDigitalPrice : 10.00
+        a3PaperColourPrice: 3.00,
+        a3PaperMonoPrice: 1.00,
+        a3PlusPaperPrice: 13.00,
+        a3DigitalPrice: 2.80,
+        a3PlusDigitalPrice: 10.00
     };
 
     $scope.options = {
-        deliveryType : "paper",
-        printingOption : "colour",
-        deliveryAddress : "stored",
-        selectedCountry : 'United Kingdom',
-        availableCountries : [
+        deliveryType: "paper",
+        printingOption: "colour",
+        deliveryAddress: "stored",
+        selectedCountry: 'United Kingdom',
+        availableCountries: [
             'United Kingdom',
-            'Australia',
-            'New Zealand',
-            'Zambia'
+            'Canada',
+            'New Zealand'
         ]
     };
-
     $scope.totalPrice = false;
 
     $scope.calculateTotalPrice = function (type, printingOption) {
-        if(type == "digital") {
+        if (type == "digital") {
             $scope.totalPrice = ($scope.quantities.a3Pages * $scope.prices.a3DigitalPrice) + ($scope.quantities.a3PlusPages * $scope.prices.a3PlusDigitalPrice);
-        } else if(type == "paper") {
+        } else if (type == "paper") {
             switch (printingOption) {
                 case "colour" :
                     $scope.totalPrice = ($scope.quantities.a3Pages * $scope.prices.a3PaperColourPrice) + ($scope.quantities.a3PlusPages * $scope.prices.a3PlusPaperPrice);
