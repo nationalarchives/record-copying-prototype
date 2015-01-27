@@ -61,9 +61,7 @@
                         Held by:
                     </th>
                     <td>
-                        <a href="http://discovery.nationalarchives.gov.uk/details/a/A13531735" target="_blank">King's
-                            College London: Liddell Hart Centre for Military Archives</a>, not available at The National
-                        Archives
+                        <a href="http://www.nationalarchives.gov.uk/" target="_blank">The National Archives, Kew</a>
                     </td>
                 </tr>
                 <tr>
@@ -79,7 +77,7 @@
                         Legal status:
                     </th>
                     <td>
-                        public
+                        Public record
                     </td>
                 </tr>
                 </tbody>
