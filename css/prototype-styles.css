@@ -91,9 +91,6 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
     border-top: 1px dotted #CCCCCC;
 }
 
-
-
-
 .basket-contents .basket-item strong {
     vertical-align: top;
     display: inline-block;
@@ -121,7 +118,7 @@ END OF styles namespaced by '.basket-contents'
     text-align: left;
 }
 
-.email-mock table caption{
+.email-mock table caption {
     text-align: left;
     padding-bottom: 0.2em;
 }
@@ -195,4 +192,8 @@ ul.sibling li {
 
 .button-holder {
     margin-bottom: 1em;
+}
+
+input:disabled {
+    background: #777;
 }
