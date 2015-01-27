@@ -76,6 +76,7 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
 }
 
 .basket-item {
+    position: relative;
     border-bottom: 1px dotted #CCCCCC;
 }
 
@@ -85,6 +86,14 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
 
 .basket-item li {
     padding: 0.5em 0;
+}
+
+
+.basket-item li a.removeLink {
+    font-size: 0.85em;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
 }
 
 .basket-item li:first-child {
@@ -197,3 +206,4 @@ ul.sibling li {
 input:disabled {
     background: #777;
 }
+

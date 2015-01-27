@@ -39,6 +39,7 @@
                         <li><strong>Document title:</strong> <span>DIVISIONS: 42ND. DIVISION: Reconnaissance Battalion</span></li>
                         <li><strong>Instructions for copying:</strong> <span><?php echo($instructions); ?></span></li>
                         <li><strong>Cost:</strong> <span><?php echo(PAGE_CHECK_PRICE); ?></span></li>
+                        <li><a class="removeLink" href="">Remove</a></li>
                     </ul>
                     <div class="checkout">
                         <a href="details-page.php"
