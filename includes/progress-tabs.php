@@ -1,3 +1,6 @@
+<div class="progress-tabs-label">
+    <h3 class="inline">Where am I in the process?</h3>
+</div>
 <div class="progress-tabs">
     <ul role="tablist">
         <li role="tab" id="request-page-check">
