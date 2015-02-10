@@ -220,7 +220,7 @@ ul.sibling li {
     margin-bottom: 1em;
 }
 
-input:disabled {
+input[type=submit]:disabled {
     background: #777;
 }
 
