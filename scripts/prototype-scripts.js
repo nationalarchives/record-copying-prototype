@@ -20,17 +20,24 @@ $(document).ready(function(){
 });
 
 
+// Scrolling when the user shows the form
+
+$("#get-started").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#what-to-copy").offset().top
+    }, 450);
+});
+
+
 // Angular
 
 var app = angular.module("recordCopying", []);
 
-app.controller("startPageCheck", function ($scope, $log) {
+app.controller("startPageCheck", function ($scope, $log, $anchorScroll, $location) {
     $scope.data = {
         showPageCheckForm : false,
         termsAccepted : false
     };
-
-
 
     $scope.togglePageCheckForm = function () {
         $log.log('togglePageCheckForm function called');

@@ -1,4 +1,4 @@
-<div class="progress-tabs-label">
+<div class="progress-tabs-label" id="what-to-copy">
     <h3 class="inline">Where am I in the process?</h3>
 </div>
 <div class="progress-tabs">
@@ -23,7 +23,7 @@
         <p>Tell us the information you would like to be copied, so that a member of staff can carry out a page check.
             This will cost <?php echo(PAGE_CHECK_PRICE); ?>. <a href="#">What if I don't know this?</a></p> 
         <div class="button-holder">
-            <a href="" class="discoveryPrimaryCallToActionLink" ng-click="togglePageCheckForm()">Get
+            <a id="get-started" class="discoveryPrimaryCallToActionLink" ng-click="togglePageCheckForm()">Get
                 started</a>
         </div>
         <?php require_once('includes/start-page-check-form.php'); ?>
