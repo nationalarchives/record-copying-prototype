@@ -20,7 +20,7 @@
         </li>
     </ul>
     <div aria-labelledby="request-page-check" role="tabpanel">
-        <p>Tell us the information you would like to be copied, so that a member of staff can carry out a page check.
+        <p>Tell us the information you would like to be copied, so that a member of staff can carry out a page check..
             This will cost <?php echo(PAGE_CHECK_PRICE); ?>. <a href="#">What if I don't know this?</a></p> 
         <div class="button-holder">
             <a id="get-started" class="discoveryPrimaryCallToActionLink" ng-click="togglePageCheckForm()">Get
