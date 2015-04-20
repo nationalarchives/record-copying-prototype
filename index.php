@@ -4,6 +4,7 @@
     <body>
         <?php require_once('includes/header.php'); ?>
         <main id="page_wrap" class="container" role="main">
+        	<h1>Testing</h1>
             <?php require_once('includes/index-page-content.php'); ?>
         </main>
         <?php require_once('includes/footer.php'); ?>
