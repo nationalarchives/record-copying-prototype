@@ -35,14 +35,19 @@ var app = angular.module("recordCopying", []);
 
 app.controller("startPageCheck", function ($scope, $log, $anchorScroll, $location) {
     $scope.data = {
-        showPageCheckForm : false,
-        termsAccepted : false
+        showPageCheckForm : false
     };
 
     $scope.togglePageCheckForm = function () {
         $log.log('togglePageCheckForm function called');
         $scope.data.showPageCheckForm = !$scope.data.showPageCheckForm;
     }
+});
+
+app.controller("basketController", function ($scope) {
+    $scope.data = {
+        termsAccepted : false
+    };
 });
 
 app.controller("confirmAndPay", function ($scope, $log) {

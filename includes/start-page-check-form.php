@@ -39,8 +39,7 @@
             <p></p>
         </div>
         <div class="button-holder">
-            <input type="checkbox" id="confirm-terms" ng-model="data.termsAccepted"/><label for="confirm-terms">I accept the <a href="http://www.nationalarchives.gov.uk/legal/recordcopying.htm" target="_blank">terms and conditions</a></label>
-            <input type="submit" value="Add to basket" ng-disabled="!data.termsAccepted"/>
+            <input type="submit" value="Add to basket" />
         </div>
     </form>
 
