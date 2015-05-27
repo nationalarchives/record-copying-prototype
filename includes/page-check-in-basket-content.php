@@ -1,12 +1,12 @@
 <?php require_once('page-check-in-basket-breadcrumb.php'); ?>
-<section class="row">
+<section class="row" ng-controller="basketController">
     <div class="col starts-at-full ends-at-two-thirds clr holding-box">
 
-        <form action="/checkout/ordersummary" method="post">
+        <form action="checkout-abstract.php" method="post">
             <div class="heading-holding-banner">
                 <h1>
                     <span>
-                        <span>
+                        <span> 
                             Your shopping basket <span>(1  item)</span>
                         </span>
                     </span>
@@ -42,10 +42,14 @@
                         <li><a class="removeLink" href="">Remove</a></li>
                     </ul>
                     <div class="checkout">
+                        
+                            <div class="button-holder">
+                                <input type="checkbox" id="confirm-terms" ng-model="data.termsAccepted"/><label for="confirm-terms">I accept the <a href="http://www.nationalarchives.gov.uk/legal/recordcopying.htm" target="_blank">terms and conditions</a></label>
+                                <input type="submit" value="Checkout" ng-disabled="!data.termsAccepted"/>
+                            </div>
+                        
                         <a href="details-page.php"
                            class="call-to-action-link secondary">Continue Shopping</a>
-                        <a href="checkout-abstract.php"
-                           class="discoveryPrimaryCallToActionLink">Checkout</a>
                     </div>
                     <?php require_once('worldpay-images.php'); ?>
                 </div>
