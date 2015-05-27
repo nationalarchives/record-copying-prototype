@@ -50,7 +50,7 @@
     </div>
     <div class="copying-options">
         <h3>
-            Copying options
+            Copying options (paper or digital)
         </h3>
 
         <form>
