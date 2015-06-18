@@ -109,7 +109,7 @@
                             <label for="county">County</label><input id="county" type="text"/>
                         </div>
                         <div class="field-row">
-                            <label for="state">State</label><input id="state" type="text"/>
+                            <label for="postcode">Postcode</label><input id="postcode" type="text"/>
                         </div>
                     </fieldset>
                 </div>

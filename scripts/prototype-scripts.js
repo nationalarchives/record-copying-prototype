@@ -1,6 +1,6 @@
 // jQuery - will refactor to Angular for production
 
-$(document).ready(function(){
+$(document).ready(function () {
     $tabs = $("ul[role='tablist'] li");
     $tabs.tabify();
 
@@ -21,12 +21,13 @@ $(document).ready(function(){
 
 
 // Scrolling when the user shows the form
-
-$("#get-started").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#what-to-copy").offset().top
-    }, 450);
-});
+if ($("#get-started").length && $("#what-to-copy").length) {
+    $("#get-started").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#what-to-copy").offset().top
+        }, 450);
+    });
+}
 
 
 // Angular
@@ -35,7 +36,7 @@ var app = angular.module("recordCopying", []);
 
 app.controller("startPageCheck", function ($scope, $log, $anchorScroll, $location) {
     $scope.data = {
-        showPageCheckForm : false
+        showPageCheckForm: false
     };
 
     $scope.togglePageCheckForm = function () {
@@ -44,9 +45,32 @@ app.controller("startPageCheck", function ($scope, $log, $anchorScroll, $locatio
     }
 });
 
+app.controller("startCertifiedCopy", function ($scope, $log, $anchorScroll, $location) {
+    $scope.data = {
+        showCertifiedCopyForm: false
+    };
+
+    $scope.toggleCertifiedCopyForm = function () {
+        $log.log('toggleCertifiedCopyForm function called');
+        $scope.data.showCertifiedCopyForm = !$scope.data.showCertifiedCopyForm;
+    }
+
+    $scope.options = {
+        selectedCountry: 'United Kingdom',
+        availableCountries: [
+            'United Kingdom',
+            'Australia',
+            'Canada',
+            'Hong Kong',
+            'Japan',
+            'New Zealand'
+        ]
+    };
+});
+
 app.controller("basketController", function ($scope) {
     $scope.data = {
-        termsAccepted : false
+        termsAccepted: false
     };
 });
 
