@@ -224,6 +224,14 @@ ul.sibling li {
     margin-bottom: 1em;
 }
 
+#miniBasketWrapper {
+    width: 240px;
+}
+
+#miniBasketWrapper ul li {
+    width: 100%;
+}
+
 input[type=submit]:disabled {
     background: #777;
 }

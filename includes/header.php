@@ -75,12 +75,45 @@
                 <li id="signin"><a href="http://discovery.nationalarchives.gov.uk/sign-in">Sign in</a></li>
                 <li id="register"><a href="http://discovery.nationalarchives.gov.uk/register">Register</a></li>
                 <li id="miniBasket">
-                <span class="noItems">
-                    <img src="images/basket.png" id="basketIcon" alt="Basket icon">
-                    No items
-                </span>
+                    <a href="/basket" id="miniBasketLink" class="hasBeenInteractedWith expanded">3 items - £36.24</a>
                 </li>
-
+                <div id="miniBasketWrapper" style="display: none;">
+                    <ul>
+                        <li>
+                        <span class="basketColumn">
+                            <span class="miniBasketItemName">
+                                <a href="#">Letters from Flag O...</a><br>
+                                ADM 1/1
+                            </span>
+                        </span>
+                            <span class="miniBasketPrice">£8.24</span>
+                        </li>
+                        <li>
+                        <span class="basketColumn">
+                            <span class="miniBasketItemName">
+                                <a href="#">Ho Shu-hing known...</a><br>
+                                HO 334/1983/48484
+                            </span>
+                        </span>
+                            <span class="miniBasketPrice">£25.00</span>
+                        </li>
+                        <li>
+                        <span class="basketColumn">
+                            <span class="miniBasketItemName">
+                                <a href="#">Felix Ruddick</a><br>
+                                WO 409/27/33/804
+                            </span>
+                        </span>
+                            <span class="miniBasketPrice">£3.00</span>
+                        </li>
+                    </ul>
+                    <div id="miniBasketSubtotal">
+                        Total: £36.24
+                    </div>
+                    <div id="miniBasketOptions">
+                        <a class="discoverySecondaryCallToActionLink" href="#">View basket</a>
+                    </div>
+                </div>
             </ul>
         </div>
     </div>
