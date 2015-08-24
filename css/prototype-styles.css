@@ -232,6 +232,10 @@ ul.sibling li {
     width: 100%;
 }
 
+.call-to-action-link {
+    background-color: #099;
+}
+
 input[type=submit]:disabled {
     background: #777;
 }

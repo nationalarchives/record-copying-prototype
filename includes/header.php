@@ -112,6 +112,7 @@
                     </div>
                     <div id="miniBasketOptions">
                         <a class="discoverySecondaryCallToActionLink" href="#">View basket</a>
+                        <a class="discoveryPrimaryCallToActionLink call-to-action-link" href="#">Checkout</a>
                     </div>
                 </div>
             </ul>
