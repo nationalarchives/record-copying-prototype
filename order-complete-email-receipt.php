@@ -26,48 +26,53 @@
             <p> <a href="#">Click here to download your order item</a></p>
         </div>
         <div style="padding:10px; margin-bottom:10px; background-color: #EEEEEE; ">
-            <p>You must download this record within 30 days from the order date.</p>
+            <p>Downloads will expire after 30 days from the order date.</p>
             <p>If you were signed into your Discovery account when you made your order, your images are also available to download from your current orders.</p>
-            <p>If you have any questions or concerns about your order, please contact us at digitaldownloads@nationalarchives.gsi.gov.uk quoting the order ID number.</p>
+            <p>If you have any questions or concerns about your order, please contact us at <a>digitaldownloads@nationalarchives.gsi.gov.uk</a> quoting the order ID number.</p>
         </div>
         <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
-            <h3>Naturalisation Certificate</h3>
+            <h3>Copy Order</h3>
         </div>
         <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
-            <p> <strong>Title:</strong>&nbsp;&nbsp;Ho Shu-hing known as Ho Wai-ping known as Lily Ho known as...<br>
+            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai-ping known as Lily Ho known as...<br>
                 <strong>Order item ID: </strong>&nbsp;&nbsp;784985420<br>
                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1983/48484<br>
+                <strong>Certified copy: </strong>&nbsp;&nbsp;Yes<br>
                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
+            <p>Your order will be dispatched by Monday 14 September 2015.</p>
         </div>
         <div style="padding:10px; margin-bottom:10px; background-color: #EEEEEE; ">
-            <p>You have chosen to receive a certified copy.</p>
-            <p>Your order will be dispatched by Monday 14 September 2015.</p>
             <p>If you have any questions or concerns about your order, please contact us at +44 (0) 20 8876 3444.</p>
         </div>
         <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
-            <h3>Closed records research request</h3>
+            <h3>2 Page Check Requests</h3>
         </div>
         <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
-            <p> <strong>Title:</strong>&nbsp;&nbsp;James Alcock<br>
-            <strong>Order item ID: </strong>&nbsp;&nbsp;784985417<br>
-            <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 409/27/27/27<br>
-            <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
-        </div>
-        <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
-            <h3>Page check request</h3>
+            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Fu-ling, known as Sapson Ho Fu-ling, known as Sapson Ho...<br>
+            <strong>Order item ID: </strong>&nbsp;&nbsp;784985421<br>
+            <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1987/49434<br>
+            <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£8.24</p>
         </div>
         <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
             <p> <strong>Title:</strong>&nbsp;&nbsp;Letters from Flag Officer West Africa Squadron<br>
-            <strong>Order item ID: </strong>&nbsp;&nbsp;784985418<br>
-            <strong>Catalogue reference: </strong>&nbsp;&nbsp;ADM 1/1<br>
-            <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£8.24</p>
+                <strong>Order item ID: </strong>&nbsp;&nbsp;784985418<br>
+                <strong>Catalogue reference: </strong>&nbsp;&nbsp;ADM 1/1<br>
+                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£8.24</p>
         </div>
         <div style="padding:10px; margin-bottom:10px; background-color: #EEEEEE; ">
-            <p>You have chosen to receive a certified copy.</p>
             <p>If you have any questions or concerns about your page check, please contact us at +44 (0) 20 8876 3444.</p>
         </div>
         <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
-            <h3><strong>Total :</strong>&nbsp;&nbsp; £61.24 </h3>
+            <h3>Closed Records Research Request</h3>
+        </div>
+        <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
+            <p> <strong>Title:</strong>&nbsp;&nbsp;James Alcock<br>
+                <strong>Order item ID: </strong>&nbsp;&nbsp;784985417<br>
+                <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 409/27/27/27<br>
+                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
+        </div>
+        <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
+            <h3><strong>Total :</strong>&nbsp;&nbsp; £69.48 </h3>
             <p> <strong>Transaction reference:</strong> I/116938265204068X </p>
         </div>
         <p>
