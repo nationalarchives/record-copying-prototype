@@ -93,6 +93,9 @@
                             <p>You have chosen to receive a certified copy.</p>
                             <p>If you have any questions or concerns about your page check, please contact us at +44 (0) 20 8876 3444.</p>
                         </div>
+                        <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
+                            <h3><strong>Total :</strong>&nbsp;&nbsp; £61.24 </h3>
+                        </div>
                     </div>
 
 
