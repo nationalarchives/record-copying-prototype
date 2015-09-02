@@ -63,6 +63,11 @@
     color: #FFF;
 }
 
+ul.step-indicator li.active {
+    background: #405480 url(../images/active-step-indicator.png) no-repeat right center;
+    color: #fff;
+}
+
 div[role=tabpanel] {
     border: 2px solid #DDD;
     padding: 1em;
@@ -131,6 +136,11 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
     vertical-align: top;
     display: inline-block;
     width: 60%;
+}
+
+.grand-total {
+    text-align: right;
+    margin-top: 1em;
 }
 
 /*
