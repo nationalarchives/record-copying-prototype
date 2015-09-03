@@ -115,7 +115,7 @@ Note:   the following styles - namespaced by '.basket-contents' will require cha
 }
 
 
-.basket-item li a.removeLink {
+.basket-item li a.removeLink, a.removeLink {
     font-size: 0.85em;
     position: absolute;
     right: 1em;
