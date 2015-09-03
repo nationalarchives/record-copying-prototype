@@ -2,19 +2,19 @@
 <section class="row" ng-controller="basketController">
     <div class="col starts-at-full ends-at-two-thirds clr holding-box">
 
-
+        <form action="checkout-abstract.php" method="post">
             <div class="heading-holding-banner">
                 <h1>
                     <span>
                         <span> 
-                            Thank you for your order
+                            Your shopping basket
                         </span>
                     </span>
                 </h1>
             </div>
             <div class="breather">
                 <ul class="step-indicator">
-                    <li>
+                    <li class="active">
                         <span>1</span>
                         <span>Basket</span>
                     </li>
@@ -26,15 +26,14 @@
                         <span>3</span>
                         <span>Payment</span>
                     </li>
-                    <li class="last active">
+                    <li class="last">
                         <span>4</span>
                         <span>Confirmation</span>
                     </li>
                 </ul>
 
                 <div class="holding-box basket-contents">
-                    <h2 class="inline clr">Transaction reference: I/120860526404044M</h2>
-                    <p>A receipt has been sent to [customer email address].</p>
+                    <p>You have 6 items in your shopping basket. Please review your order.</p>
                     <div class="order-items distinct">
                         <div>
                             <h2 class="inline clr">2 Digital Items</h2>
@@ -44,14 +43,12 @@
                                 <strong>Order item ID: </strong>&nbsp;&nbsp;784985415<br>
                                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 409/27/33/804<br>
                                 <strong>Price: </strong>&nbsp;&nbsp;&nbsp;£3.00</p>
-                            <p> <a href="#" class="discoveryPrimaryCallToActionLink">Download now</a> Download expires Monday 28 September 2015</p>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title: </strong>&nbsp;&nbsp;3rd Infantry Brigade Anti-tank Company<br>
                                 <strong>Order item ID: </strong>&nbsp;&nbsp;784985416<br>
                                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 33/804/34/1<br>
                                 <strong>Price: </strong>&nbsp;&nbsp;&nbsp;£3.00</p>
-                            <p> <a href="#" class="discoveryPrimaryCallToActionLink">Download now</a> Download expires Monday 28 September 2015</p>
                         </div>
                         <div>
                             <h2 class="inline clr">Copy Order</h2>
@@ -62,7 +59,6 @@
                                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1983/48484<br>
                                 <strong>Certified copy: </strong>&nbsp;&nbsp;Yes<br>
                                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
-                            <p>Your order will be dispatched by Monday 14 September 2015.</p>
                         </div>
                         <div>
                             <h2 class="inline clr">2 Page Check Requests</h2>
@@ -91,18 +87,20 @@
                         <div class="grand-total">
                             <h2 class="inline clr"><strong>Total :</strong>&nbsp;&nbsp; £69.48 </h2>
                         </div>
-                        <div class="page-check-form">
-                            <p>Downloads will expire after 30 days from the order date.</p>
-                            <p>If you were signed into your Discovery account when you made your order, your images are also available to download from your current orders.</p>
-                            <p>If you have any questions or concerns about your digital item order, please contact us at <a>digitaldownloads@nationalarchives.gsi.gov.uk</a> quoting the order ID number.</p>
-                            <p>If you have any questions or concerns about your order, please contact us at +44 (0) 20 8876 3444.</p>
-                        </div>
                     </div>
-
-
-
+                    <div class="checkout">
+                        
+                            <div class="button-holder">
+                                <input type="checkbox" id="confirm-terms" ng-model="data.termsAccepted"/><label for="confirm-terms">I accept the <a href="http://www.nationalarchives.gov.uk/legal/recordcopying.htm" target="_blank">terms and conditions</a></label>
+                                <input type="submit" value="Checkout" ng-disabled="!data.termsAccepted"/>
+                            </div>
+                        
+                        <a href="details-page.php"
+                           class="call-to-action-link secondary">Continue Shopping</a>
+                    </div>
+                    <?php require_once('worldpay-images.php'); ?>
                 </div>
             </div>
-
+        </form>
     </div>
 </section>
