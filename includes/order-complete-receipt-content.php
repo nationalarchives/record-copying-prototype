@@ -37,7 +37,7 @@
                     <p>A receipt has been sent to [customer email address].</p>
                     <div class="order-items distinct">
                         <div>
-                            <h2 class="inline clr">2 Digital Items</h2>
+                            <h2 class="inline clr">2 Digital items</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title: </strong>&nbsp;&nbsp;Felix Ruddick<br>
@@ -54,7 +54,7 @@
                             <p> <a href="#" class="discoveryPrimaryCallToActionLink">Download now</a> Download expires Monday 28 September 2015</p>
                         </div>
                         <div>
-                            <h2 class="inline clr">Copy Order</h2>
+                            <h2 class="inline clr">Copy order</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
@@ -65,7 +65,7 @@
                             <p>Your order will be dispatched by Monday 14 September 2015.</p>
                         </div>
                         <div>
-                            <h2 class="inline clr">2 Page Check Requests</h2>
+                            <h2 class="inline clr">2 Page check requests</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Fu-ling, known as Sapson Ho...<br>
@@ -92,10 +92,9 @@
                             <h2 class="inline clr"><strong>Total :</strong>&nbsp;&nbsp; £69.48 </h2>
                         </div>
                         <div class="page-check-form">
-                            <p>Downloads will expire after 30 days from the order date.</p>
                             <p>If you were signed into your Discovery account when you made your order, your images are also available to download from your current orders.</p>
-                            <p>If you have any questions or concerns about your digital item order, please contact us at <a>digitaldownloads@nationalarchives.gsi.gov.uk</a> quoting the order ID number.</p>
-                            <p>If you have any questions or concerns about your order, please contact us at +44 (0) 20 8876 3444.</p>
+                            <p>If you have any questions or concerns about your digital item order, please email us at <a>digitaldownloads@nationalarchives.gsi.gov.uk</a> quoting the order ID number.</p>
+                            <p>If you have any questions or concerns about your order, please call us at +44 (0) 20 8876 3444.</p>
                         </div>
                     </div>
 

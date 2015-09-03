@@ -36,7 +36,7 @@
                     <p>You have 6 items in your shopping basket. Please review your order.</p>
                     <div class="order-items distinct">
                         <div>
-                            <h2 class="inline clr">2 Digital Items</h2>
+                            <h2 class="inline clr">2 Digital items</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title: </strong>&nbsp;&nbsp;Felix Ruddick<br>
@@ -53,7 +53,7 @@
                             <p><a class="removeLink">Remove</a></p>
                         </div>
                         <div>
-                            <h2 class="inline clr">Copy Order</h2>
+                            <h2 class="inline clr">Copy order</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
@@ -64,7 +64,7 @@
                             <p><a class="removeLink">Remove</a></p>
                         </div>
                         <div>
-                            <h2 class="inline clr">2 Page Check Requests</h2>
+                            <h2 class="inline clr">2 Page check requests</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Fu-ling, known as Sapson Ho...<br>
