@@ -56,6 +56,7 @@
         </div>
         <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
             <p> <strong>Title:</strong>&nbsp;&nbsp;James Alcock<br>
+                <strong>Type: </strong>&nbsp;&nbsp;Home Guard<br>
                 <strong>Order item ID: </strong>&nbsp;&nbsp;784985417<br>
                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 409/27/27/27<br>
                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
