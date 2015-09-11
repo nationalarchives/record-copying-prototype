@@ -106,7 +106,7 @@
                             <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
                                 <h3 class="inline clr">Sub total : <strong>139.00</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>0.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>139.0</strong>0 </h2>
+                                <h2 class="inline clr">Total : <strong>139.00</strong> </h2>
                             </div>
                         </div>
                     </div>

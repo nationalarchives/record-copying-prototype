@@ -53,7 +53,7 @@
                                 <strong>Price: </strong>£3.00</p>
                         </div>
                         <div>
-                            <h2 class="inline clr">Copy order</h2>
+                            <h2 class="inline clr">2 Copy orders</h2>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title:</strong> Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
@@ -72,28 +72,28 @@
                             <h2 class="inline clr">2 Page check requests</h2>
                         </div>
                         <div class="basket-item">
-                            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Fu-ling, known as Sapson Ho...<br>
-                                <strong>Order item ID: </strong>&nbsp;&nbsp;784985421<br>
-                                <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1987/49434<br>
-                                <strong>Instructions: </strong>&nbsp;&nbsp;Usu quas possit periculis ne, prompta vituperatoribus his an, an nulla iriure evertitur eum. Vidisse alienum accusamus ex nec, no mel possit feugait fierent, id altera apeirian nec. In vel paulo soleat, suscipit abhorreant posidonium sea et. Pri fabulas inermis admodum ut, tractatos splendide ad eos.<br>
-                                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£8.24</p>
+                            <p> <strong>Title:</strong> Naturalisation Certificate: Ho Fu-ling, known as Sapson Ho...<br>
+                                <strong>Order item ID: </strong> 784985421<br>
+                                <strong>Catalogue reference: </strong> HO 334/1987/49434<br>
+                                <strong>Instructions: </strong> Usu quas possit periculis ne, prompta vituperatoribus his an, an nulla iriure evertitur eum. Vidisse alienum accusamus ex nec, no mel possit feugait fierent, id altera apeirian nec. In vel paulo soleat, suscipit abhorreant posidonium sea et. Pri fabulas inermis admodum ut, tractatos splendide ad eos.<br>
+                                <strong>Price:</strong> £8.24</p>
                         </div>
                         <div class="basket-item">
-                            <p> <strong>Title:</strong>&nbsp;&nbsp;Letters from Flag Officer West Africa Squadron<br>
-                                <strong>Order item ID: </strong>&nbsp;&nbsp;784985418<br>
-                                <strong>Catalogue reference: </strong>&nbsp;&nbsp;ADM 1/1<br>
-                                <strong>Instructions: </strong>&nbsp;&nbsp;Ne possim albucius vel, eu vix eius tantas graeco. Homero pericula ullamcorper sed an, ex altera quidam pro. Stet habemus luptatum mea an, mea in sumo constituto consectetuer. Impetus fabellas definitionem ei mea, qui libris nemore et. Pri ex dicit melius detraxit. Te mea ridens dictas.<br>
-                                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£8.24</p>
+                            <p> <strong>Title:</strong> Letters from Flag Officer West Africa Squadron<br>
+                                <strong>Order item ID: </strong> 784985418<br>
+                                <strong>Catalogue reference: </strong> ADM 1/1<br>
+                                <strong>Instructions: </strong> Ne possim albucius vel, eu vix eius tantas graeco. Homero pericula ullamcorper sed an, ex altera quidam pro. Stet habemus luptatum mea an, mea in sumo constituto consectetuer. Impetus fabellas definitionem ei mea, qui libris nemore et. Pri ex dicit melius detraxit. Te mea ridens dictas.<br>
+                                <strong>Price:</strong> £8.24</p>
                         </div>
                         <div>
                             <h2 class="inline clr">Closed records research request</h2>
                         </div>
                         <div class="basket-item">
-                            <p> <strong>Title:</strong>&nbsp;&nbsp;James Alcock<br>
-                                <strong>Type: </strong>&nbsp;&nbsp;Home Guard<br>
-                                <strong>Order item ID: </strong>&nbsp;&nbsp;784985417<br>
-                                <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 409/27/27/27<br>
-                                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
+                            <p> <strong>Title:</strong> James Alcock<br>
+                                <strong>Type: </strong> Home Guard<br>
+                                <strong>Order item ID: </strong> 784985417<br>
+                                <strong>Catalogue reference: </strong> WO 409/27/27/27<br>
+                                <strong>Price:</strong> £25.00</p>
                         </div>
                         <div class="page-check-form">
                             <h2 class="inline clr">Copy order delivery options</h2>
@@ -150,7 +150,7 @@
                             <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>0.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>186.48</strong>0 </h2>
+                                <h2 class="inline clr">Total : <strong>186.48</strong> </h2>
                             </div>
                         </div>
                     </div>
