@@ -78,6 +78,9 @@
                                             <br>Notify me when all my items are ready for collection.</div>
                                     </div>
                                 </div>
+                            <div class="button-holder">
+                                <a href="#" class="call-to-action-link secondary">Update</a>
+                            </div>
                         </div>
                         <div class="total-price">
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'single'">

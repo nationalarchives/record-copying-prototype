@@ -68,36 +68,6 @@
                                 <strong>Catalogue reference: </strong> WO 166/500<br>
                                 <strong>Price:</strong> £114.00</p>
                         </div>
-                        <div class="page-check-form">
-                            <h2 class="inline clr">Copy order delivery options</h2>
-                            <form>
-                                <div class="grid-within-grid-two-item clr">
-                                    <div>
-                                        <legend>Delivery type</legend>
-                                        <div class="field-row"><input name="postOrCollect" value="post" type="radio" id="post" ng-model="options.postOrCollect" /><label for="post">Postal delivery</label></div>
-                                        <div class="field-row"><input name="postOrCollect" value="collect" type="radio" id="collect" ng-model="options.postOrCollect" /><label for="collect">Collect in person</label></div>
-                                        <p ng-show="options.postOrCollect == 'post'">Delivery address:<br>41 Park Road, Richmond, TW1 8UX, UK <a><small>Edit</small></a></p>
-                                    </div>
-                                    <div ng-show="options.postOrCollect == 'post'">
-                                        <legend>Postal type</legend>
-                                        <div class="field-row"><input name="postalType" value="firstClass" type="radio" id="firstClass" checked="checked" /><label for="firstClass">First class</label></div>
-                                        <div class="field-row"><input name="postalType" value="special" type="radio" id="special" /><label for="special">Special delivery</label></div>
-                                        <legend>Postal type</legend>
-                                        <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="single" ng-model="options.postSingleOrCombine" /><label for="single">I want my items fast.</label>
-                                            <br>Ship them individually as they become available.</div>
-                                        <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="combine" ng-model="options.postSingleOrCombine" /><label for="combine">Group my items.</label>
-                                            <br>Combine them into as few shipments as possible.</div>
-                                    </div>
-                                    <div ng-show="options.postOrCollect == 'collect'">
-                                        <legend>Postal type</legend>
-                                        <div class="field-row"><input name="singleOrCombine" value="single" type="radio" id="single" ng-model="options.singleOrCombine" /><label for="single">I want my items fast.</label>
-                                            <br>Notify me as each item becomes available.</div>
-                                        <div class="field-row"><input name="singleOrCombine" value="combine" type="radio" id="combine" ng-model="options.singleOrCombine" /><label for="combine">Group my items.</label>
-                                            <br>Notify me when all my items are ready for collection.</div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
                         <div>
                             <h2 class="inline clr">2 Page check requests</h2>
                         </div>
@@ -125,13 +95,63 @@
                                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 409/27/27/27<br>
                                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
                         </div>
-                        <div class="grand-total" ng-show="options.postOrCollect == 'post'">
-                            <h3 class="inline clr"><strong>Sub total :</strong> 183.48 </h3><br>
-                            <h3 class="inline clr"><strong>Postage and packing :</strong> 30.00 </h3><br>
-                            <h2 class="inline clr"><strong>Total :</strong> {{ totalDeliveryPrice }} </h2>
+                        <div class="page-check-form">
+                            <h2 class="inline clr">Copy order delivery options</h2>
+                            <div class="grid-within-grid-two-item clr">
+                                <div>
+                                    <legend>Delivery type</legend>
+                                    <div class="field-row"><input name="postOrCollect" value="post" type="radio" id="post" ng-model="options.postOrCollect" /><label for="post">Postal delivery</label></div>
+                                    <div class="field-row"><input name="postOrCollect" value="collect" type="radio" id="collect" ng-model="options.postOrCollect" /><label for="collect">Collect in person</label></div>
+                                    <p ng-show="options.postOrCollect == 'post'">Delivery address:<br>41 Park Road, Richmond, TW1 8UX, UK <a><small>Edit</small></a></p>
+                                </div>
+                                <div ng-show="options.postOrCollect == 'post'">
+                                    <legend>Postal type</legend>
+                                    <div class="field-row"><input name="postalType" value="firstClass" type="radio" id="firstClass" checked="checked" ng-model="options.postalType" /><label for="firstClass">First class</label></div>
+                                    <div class="field-row"><input name="postalType" value="special" type="radio" id="special" ng-model="options.postalType" /><label for="special">Special delivery</label></div>
+                                    <legend>Postal type</legend>
+                                    <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="single" ng-model="options.postSingleOrCombine" /><label for="single">I want my items fast.</label>
+                                        <br>Ship them individually as they become available.</div>
+                                    <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="combine" ng-model="options.postSingleOrCombine" /><label for="combine">Group my items.</label>
+                                        <br>Combine them into as few shipments as possible.</div>
+                                </div>
+                                <div ng-show="options.postOrCollect == 'collect'">
+                                    <legend>Postal type</legend>
+                                    <div class="field-row"><input name="singleOrCombine" value="single" type="radio" id="single" ng-model="options.singleOrCombine" /><label for="single">I want my items fast.</label>
+                                        <br>Notify me as each item becomes available.</div>
+                                    <div class="field-row"><input name="singleOrCombine" value="combine" type="radio" id="combine" ng-model="options.singleOrCombine" /><label for="combine">Group my items.</label>
+                                        <br>Notify me when all my items are ready for collection.</div>
+                                </div>
+                            </div>
+                            <div class="button-holder">
+                                <a href="#" class="call-to-action-link secondary">Update</a>
+                            </div>
                         </div>
-                        <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
-                            <h2 class="inline clr"><strong>Total :</strong> 183.48 </h2>
+                        <div class="total-price">
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'single'">
+                                <h3 class="inline clr">Sub total : <stong>186.48</stong> </h3><br>
+                                <h3 class="inline clr">Postage and packing : <strong>10.00</strong> </h3><br>
+                                <h2 class="inline clr">Total : <strong>196.48</strong> </h2>
+                            </div>
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'combine'">
+                                <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
+                                <h3 class="inline clr">Postage and packing : <strong>5.00</strong> </h3><br>
+                                <h2 class="inline clr">Total : <strong>191.48</strong> </h2>
+                            </div>
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'single'">
+                                <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
+                                <h3 class="inline clr">Postage and packing : <strong>20.00</strong> </h3><br>
+                                <h2 class="inline clr">Total : <strong>206.48</strong>0 </h2>
+                            </div>
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'combine'">
+                                <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
+                                <h3 class="inline clr">Postage and packing : <strong>15.00</strong> </h3><br>
+                                <h2 class="inline clr">Total : <strong>201.48</strong> </h2>
+                            </div>
+                            <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
+                                <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
+                                <h3 class="inline clr">Postage and packing : <strong>0.00</strong> </h3><br>
+                                <h2 class="inline clr">Total : <strong>186.48</strong>0 </h2>
+                            </div>
                         </div>
                     </div>
                     <div class="checkout">
