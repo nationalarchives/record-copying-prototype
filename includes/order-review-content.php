@@ -53,7 +53,6 @@
                         </div>
                         <div class="page-check-form">
                             <h2 class="inline clr">Copy order delivery options</h2>
-                            <form>
                                 <div class="grid-within-grid-two-item clr">
                                     <div>
                                         <legend>Delivery type</legend>
@@ -79,30 +78,31 @@
                                             <br>Notify me when all my items are ready for collection.</div>
                                     </div>
                                 </div>
-                            </form>
                         </div>
-                        <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'single'">
-                            <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
-                            <h3 class="inline clr"><strong>Postage and packing :</strong> 10.00 </h3><br>
-                            <h2 class="inline clr"><strong>Total :</strong> 149.00 </h2>
-                        </div>
-                        <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'combine'">
-                            <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
-                            <h3 class="inline clr"><strong>Postage and packing :</strong> 5.00 </h3><br>
-                            <h2 class="inline clr"><strong>Total :</strong> 144.00 </h2>
-                        </div>
-                        <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'single'">
-                            <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
-                            <h3 class="inline clr"><strong>Postage and packing :</strong> 20.00 </h3><br>
-                            <h2 class="inline clr"><strong>Total :</strong> 159.00 </h2>
-                        </div>
-                        <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'combine'">
-                            <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
-                            <h3 class="inline clr"><strong>Postage and packing :</strong> 15.00 </h3><br>
-                            <h2 class="inline clr"><strong>Total :</strong> 154.00 </h2>
-                        </div>
-                        <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
-                            <h2 class="inline clr"><strong>Total :</strong> 139.00 </h2>
+                        <div class="total-price">
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'single'">
+                                <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
+                                <h3 class="inline clr"><strong>Postage and packing :</strong> 10.00 </h3><br>
+                                <h2 class="inline clr"><strong>Total :</strong> 149.00 </h2>
+                            </div>
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'combine'">
+                                <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
+                                <h3 class="inline clr"><strong>Postage and packing :</strong> 5.00 </h3><br>
+                                <h2 class="inline clr"><strong>Total :</strong> 144.00 </h2>
+                            </div>
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'single'">
+                                <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
+                                <h3 class="inline clr"><strong>Postage and packing :</strong> 20.00 </h3><br>
+                                <h2 class="inline clr"><strong>Total :</strong> 159.00 </h2>
+                            </div>
+                            <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'combine'">
+                                <h3 class="inline clr"><strong>Sub total :</strong> 139.00 </h3><br>
+                                <h3 class="inline clr"><strong>Postage and packing :</strong> 15.00 </h3><br>
+                                <h2 class="inline clr"><strong>Total :</strong> 154.00 </h2>
+                            </div>
+                            <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
+                                <h2 class="inline clr"><strong>Total :</strong> 139.00 </h2>
+                            </div>
                         </div>
                     </div>
                     <div class="checkout">
