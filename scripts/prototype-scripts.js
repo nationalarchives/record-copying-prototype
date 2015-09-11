@@ -72,6 +72,12 @@ app.controller("basketController", function ($scope) {
     $scope.data = {
         termsAccepted: false
     };
+    $scope.options = {
+        postOrCollect: "post",
+        postalType: "firstClass",
+        postSingleOrCombine: "single",
+        singleOrCombine: "single"
+    };
 });
 
 app.controller("confirmAndPay", function ($scope, $log) {
