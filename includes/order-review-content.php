@@ -65,9 +65,9 @@
                                         <div class="field-row"><input name="postalType" value="firstClass" type="radio" id="firstClass" checked="checked" ng-model="options.postalType" /><label for="firstClass">First class</label></div>
                                         <div class="field-row"><input name="postalType" value="special" type="radio" id="special" ng-model="options.postalType" /><label for="special">Special delivery</label></div>
                                         <legend>Postal type</legend>
-                                        <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="single" ng-model="options.postSingleOrCombine" /><label for="single">I want my items fast.</label>
+                                        <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="postSingle" ng-model="options.postSingleOrCombine" /><label for="postSingle">I want my items fast.</label>
                                             <br>Ship them individually as they become available.</div>
-                                        <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="combine" ng-model="options.postSingleOrCombine" /><label for="combine">Group my items.</label>
+                                        <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="postCombine" ng-model="options.postSingleOrCombine" /><label for="postCombine">Group my items.</label>
                                             <br>Combine them into as few shipments as possible.</div>
                                     </div>
                                     <div ng-show="options.postOrCollect == 'collect'">
