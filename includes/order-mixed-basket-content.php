@@ -2,7 +2,7 @@
 <section class="row" ng-controller="basketController">
     <div class="col starts-at-full ends-at-two-thirds clr holding-box">
 
-        <form action="checkout-abstract.php" method="post">
+        <form action="order-review-mix.php" method="post">
             <div class="heading-holding-banner">
                 <h1>
                     <span>
@@ -53,17 +53,6 @@
                             <p><a class="removeLink">Remove</a></p>
                         </div>
                         <div>
-                            <h2 class="inline clr">Copy order</h2>
-                        </div>
-                        <div class="basket-item">
-                            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
-                                <strong>Order item ID: </strong>&nbsp;&nbsp;784985420<br>
-                                <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1983/48484<br>
-                                <strong>Certified copy: </strong>&nbsp;&nbsp;Yes<br>
-                                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
-                            <p><a class="removeLink">Remove</a></p>
-                        </div>
-                        <div>
                             <h2 class="inline clr">2 Page check requests</h2>
                         </div>
                         <div class="basket-item">
@@ -93,8 +82,26 @@
                                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
                             <p><a class="removeLink">Remove</a></p>
                         </div>
+                        <div>
+                            <h2 class="inline clr">Copy order</h2>
+                        </div>
+                        <div class="basket-item">
+                            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
+                                <strong>Order item ID: </strong>&nbsp;&nbsp;784985420<br>
+                                <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1983/48484<br>
+                                <strong>Certified copy: </strong>&nbsp;&nbsp;Yes<br>
+                                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
+                            <p><a class="removeLink">Remove</a></p>
+                        </div>
+                        <div class="basket-item">
+                            <p> <strong>Title:</strong> DIVISIONS: 42ND DIVISION: Reconnaissance Battalion<br>
+                                <strong>Order item ID: </strong> RC000041<br>
+                                <strong>Catalogue reference: </strong> WO 166/500<br>
+                                <strong>Price:</strong> £114.00</p>
+                            <p><a class="removeLink">Remove</a></p>
+                        </div>
                         <div class="grand-total">
-                            <h2 class="inline clr"><strong>Total :</strong>&nbsp;&nbsp; £69.48 </h2>
+                            <h2 class="inline clr"><strong>Total :</strong>&nbsp;&nbsp; £186.48 </h2>
                         </div>
                     </div>
                     <div class="checkout">

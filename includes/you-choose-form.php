@@ -72,7 +72,7 @@
                 <input name="printingOption" value="mono" type="radio" id="mono" type="radio"
                        ng-model="options.printingOption"/><label for="mono">Black and white</label>
             </fieldset>
-            <fieldset ng-show="options.deliveryType == 'paper'">
+            <!-- <fieldset ng-show="options.deliveryType == 'paper'">
                 <h3>Delivery address</h3>
                 <legend>Delivery address</legend>
                 <p>Where would you like your copying delivered?</p>
@@ -87,7 +87,7 @@
                            ng-model="options.deliveryAddress"/>
                     <label for="enterNewAddress">Delivery to a different address</label>
                 </div>
-            </fieldset>
+            </fieldset> -->
             <div class="grid-within-grid-two-item clr" ng-show="options.deliveryAddress == 'new'">
                 <div>
                     <fieldset>
@@ -116,7 +116,7 @@
             </div>
         </form>
         <span>Total price of copying is : <strong>{{ totalPrice | currency }}</strong> (Postage will vary according to location)</span>
-        <div class="button-holder"><a class="discoveryPrimaryCallToActionLink" href="">Add to basket</a></div>
+        <div class="button-holder"><a class="discoveryPrimaryCallToActionLink" href="order-mixed-basket.php">Add to basket</a></div>
 
     </div>
 

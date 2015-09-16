@@ -53,22 +53,6 @@
                                 <strong>Price: </strong>£3.00</p>
                         </div>
                         <div>
-                            <h2 class="inline clr">2 Copy orders</h2>
-                        </div>
-                        <div class="basket-item">
-                            <p> <strong>Title:</strong> Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
-                                <strong>Order item ID: </strong> 784985420<br>
-                                <strong>Catalogue reference: </strong> HO 334/1983/48484<br>
-                                <strong>Certified copy: </strong> Yes<br>
-                                <strong>Price:</strong> £25.00</p>
-                        </div>
-                        <div class="basket-item">
-                            <p> <strong>Title:</strong> DIVISIONS: 42ND DIVISION: Reconnaissance Battalion<br>
-                                <strong>Order item ID: </strong> RC000041<br>
-                                <strong>Catalogue reference: </strong> WO 166/500<br>
-                                <strong>Price:</strong> £114.00</p>
-                        </div>
-                        <div>
                             <h2 class="inline clr">2 Page check requests</h2>
                         </div>
                         <div class="basket-item">
@@ -95,6 +79,22 @@
                                 <strong>Catalogue reference: </strong> WO 409/27/27/27<br>
                                 <strong>Price:</strong> £25.00</p>
                         </div>
+                        <div>
+                            <h2 class="inline clr">2 Copy orders</h2>
+                        </div>
+                        <div class="basket-item">
+                            <p> <strong>Title:</strong> Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
+                                <strong>Order item ID: </strong> 784985420<br>
+                                <strong>Catalogue reference: </strong> HO 334/1983/48484<br>
+                                <strong>Certified copy: </strong> Yes<br>
+                                <strong>Price:</strong> £25.00</p>
+                        </div>
+                        <div class="basket-item">
+                            <p> <strong>Title:</strong> DIVISIONS: 42ND DIVISION: Reconnaissance Battalion<br>
+                                <strong>Order item ID: </strong> RC000041<br>
+                                <strong>Catalogue reference: </strong> WO 166/500<br>
+                                <strong>Price:</strong> £114.00</p>
+                        </div>
                         <div class="page-check-form">
                             <h2 class="inline clr">Copy order delivery options</h2>
                             <div class="grid-within-grid-two-item clr">
@@ -116,9 +116,9 @@
                                 </div>
                                 <div ng-show="options.postOrCollect == 'collect'">
                                     <legend>Postal type</legend>
-                                    <div class="field-row"><input name="singleOrCombine" value="single" type="radio" id="single" ng-model="options.singleOrCombine" /><label for="single">I want my items fast.</label>
+                                    <div class="field-row"><input name="singleOrCombine" value="single" type="radio" id="singleCollect" ng-model="options.singleOrCombine" /><label for="singleCollect">I want my items fast.</label>
                                         <br>Notify me as each item becomes available.</div>
-                                    <div class="field-row"><input name="singleOrCombine" value="combine" type="radio" id="combine" ng-model="options.singleOrCombine" /><label for="combine">Group my items.</label>
+                                    <div class="field-row"><input name="singleOrCombine" value="combine" type="radio" id="combineCollect" ng-model="options.singleOrCombine" /><label for="combineCollect">Group my items.</label>
                                         <br>Notify me when all my items are ready for collection.</div>
                                 </div>
                             </div>
