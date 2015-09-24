@@ -104,22 +104,15 @@
                                     <div class="field-row"><input name="postOrCollect" value="collect" type="radio" id="collect" ng-model="options.postOrCollect" /><label for="collect">Collect in person</label></div>
                                     <p ng-show="options.postOrCollect == 'post'">Delivery address:<br>41 Park Road, Richmond, TW1 8UX, UK <a><small>Edit</small></a></p>
                                 </div>
-                                <div ng-show="options.postOrCollect == 'post'">
-                                    <legend>Postal type</legend>
-                                    <div class="field-row"><input name="postalType" value="firstClass" type="radio" id="firstClass" checked="checked" ng-model="options.postalType" /><label for="firstClass">First class</label></div>
-                                    <div class="field-row"><input name="postalType" value="special" type="radio" id="special" ng-model="options.postalType" /><label for="special">Special delivery</label></div>
-                                    <legend>Postal type</legend>
+                                <div>
                                     <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="single" ng-model="options.postSingleOrCombine" /><label for="single">I want my items fast.</label>
-                                        <br>Ship them individually as they become available.</div>
+                                        <br><span ng-show="options.postOrCollect == 'post'">Ship them individually as they become available.</span>
+                                        <span ng-show="options.postOrCollect == 'collect'">Notify me as each item becomes available.</span>
+                                    </div>
                                     <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="combine" ng-model="options.postSingleOrCombine" /><label for="combine">Group my items.</label>
-                                        <br>Combine them into as few shipments as possible.</div>
-                                </div>
-                                <div ng-show="options.postOrCollect == 'collect'">
-                                    <legend>Postal type</legend>
-                                    <div class="field-row"><input name="singleOrCombine" value="single" type="radio" id="singleCollect" ng-model="options.singleOrCombine" /><label for="singleCollect">I want my items fast.</label>
-                                        <br>Notify me as each item becomes available.</div>
-                                    <div class="field-row"><input name="singleOrCombine" value="combine" type="radio" id="combineCollect" ng-model="options.singleOrCombine" /><label for="combineCollect">Group my items.</label>
-                                        <br>Notify me when all my items are ready for collection.</div>
+                                        <br><span ng-show="options.postOrCollect == 'post'">Combine them into as few shipments as possible.</span>
+                                        <span ng-show="options.postOrCollect == 'collect'">Notify me when all my items are ready for collection.</span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="button-holder">
