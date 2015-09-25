@@ -42,14 +42,14 @@
                             <p> <strong>Title: </strong>Felix Ruddick<br>
                                 <strong>Order item ID: </strong>784985415<br>
                                 <strong>Catalogue reference: </strong>WO 409/27/33/804<br>
-                                <strong>Email address for digital item: </strong>test@test.com <a><small>Edit</small></a><br>
+                                <strong>Email address for digital item: </strong>test@test.com<br>
                                 <strong>Price: </strong>£3.00</p>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title: </strong>3rd Infantry Brigade Anti-tank Company<br>
                                 <strong>Order item ID: </strong>784985416<br>
                                 <strong>Catalogue reference: </strong>WO 33/804/34/1<br>
-                                <strong>Email address for digital item: </strong>test@test.com <a><small>Edit</small></a><br>
+                                <strong>Email address for digital item: </strong>test@test.com<br>
                                 <strong>Price: </strong>£3.00</p>
                         </div>
                         <div>
