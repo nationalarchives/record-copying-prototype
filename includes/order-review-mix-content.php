@@ -42,14 +42,14 @@
                             <p> <strong>Title: </strong>Felix Ruddick<br>
                                 <strong>Order item ID: </strong>784985415<br>
                                 <strong>Catalogue reference: </strong>WO 409/27/33/804<br>
-                                <strong>Email address for digital item: </strong>test@test.com <a><small>Edit</small></a><br>
+                                <strong>Email address for digital item: </strong>test@test.com<br>
                                 <strong>Price: </strong>£3.00</p>
                         </div>
                         <div class="basket-item">
                             <p> <strong>Title: </strong>3rd Infantry Brigade Anti-tank Company<br>
                                 <strong>Order item ID: </strong>784985416<br>
                                 <strong>Catalogue reference: </strong>WO 33/804/34/1<br>
-                                <strong>Email address for digital item: </strong>test@test.com <a><small>Edit</small></a><br>
+                                <strong>Email address for digital item: </strong>test@test.com<br>
                                 <strong>Price: </strong>£3.00</p>
                         </div>
                         <div>
@@ -104,22 +104,15 @@
                                     <div class="field-row"><input name="postOrCollect" value="collect" type="radio" id="collect" ng-model="options.postOrCollect" /><label for="collect">Collect in person</label></div>
                                     <p ng-show="options.postOrCollect == 'post'">Delivery address:<br>41 Park Road, Richmond, TW1 8UX, UK <a><small>Edit</small></a></p>
                                 </div>
-                                <div ng-show="options.postOrCollect == 'post'">
-                                    <legend>Postal type</legend>
-                                    <div class="field-row"><input name="postalType" value="firstClass" type="radio" id="firstClass" checked="checked" ng-model="options.postalType" /><label for="firstClass">First class</label></div>
-                                    <div class="field-row"><input name="postalType" value="special" type="radio" id="special" ng-model="options.postalType" /><label for="special">Special delivery</label></div>
-                                    <legend>Postal type</legend>
+                                <div>
                                     <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="single" ng-model="options.postSingleOrCombine" /><label for="single">I want my items fast.</label>
-                                        <br>Ship them individually as they become available.</div>
+                                        <br><small><span ng-show="options.postOrCollect == 'post'">Ship them individually as they become available.</span>
+                                        <span ng-show="options.postOrCollect == 'collect'">Notify me as each item becomes available.</span></small>
+                                    </div>
                                     <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="combine" ng-model="options.postSingleOrCombine" /><label for="combine">Group my items.</label>
-                                        <br>Combine them into as few shipments as possible.</div>
-                                </div>
-                                <div ng-show="options.postOrCollect == 'collect'">
-                                    <legend>Postal type</legend>
-                                    <div class="field-row"><input name="singleOrCombine" value="single" type="radio" id="singleCollect" ng-model="options.singleOrCombine" /><label for="singleCollect">I want my items fast.</label>
-                                        <br>Notify me as each item becomes available.</div>
-                                    <div class="field-row"><input name="singleOrCombine" value="combine" type="radio" id="combineCollect" ng-model="options.singleOrCombine" /><label for="combineCollect">Group my items.</label>
-                                        <br>Notify me when all my items are ready for collection.</div>
+                                        <br><small><span ng-show="options.postOrCollect == 'post'">Combine them into as few shipments as possible.</span>
+                                        <span ng-show="options.postOrCollect == 'collect'">Notify me when all my items are ready for collection.</span></small>
+                                    </div>
                                 </div>
                             </div>
                             <div class="button-holder">
@@ -130,38 +123,38 @@
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'single'">
                                 <h3 class="inline clr">Sub total : <stong>186.48</stong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>10.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>196.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£196.48</strong> </h2>
                             </div>
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'combine'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>5.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>191.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£191.48</strong> </h2>
                             </div>
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'single'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>20.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>206.48</strong>0 </h2>
+                                <h2 class="inline clr">Total : <strong>£206.48</strong>0 </h2>
                             </div>
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'combine'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>15.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>201.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£201.48</strong> </h2>
                             </div>
                             <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>0.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>186.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£186.48</strong> </h2>
                             </div>
                         </div>
                     </div>
                     <div class="checkout">
                         
                             <div class="button-holder">
+                                <a href="details-page.php" class="call-to-action-link secondary">Continue Shopping</a>
                                 <input type="submit" value="Purchase" />
                             </div>
                         
-                        <a href="details-page.php"
-                           class="call-to-action-link secondary">Continue Shopping</a>
+
                     </div>
                     <?php require_once('worldpay-images.php'); ?>
                 </div>
