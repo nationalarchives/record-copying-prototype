@@ -106,12 +106,12 @@
                                 </div>
                                 <div>
                                     <div class="field-row"><input name="postSingleOrCombine" value="single" type="radio" id="single" ng-model="options.postSingleOrCombine" /><label for="single">I want my items fast.</label>
-                                        <br><span ng-show="options.postOrCollect == 'post'">Ship them individually as they become available.</span>
-                                        <span ng-show="options.postOrCollect == 'collect'">Notify me as each item becomes available.</span>
+                                        <br><small><span ng-show="options.postOrCollect == 'post'">Ship them individually as they become available.</span>
+                                        <span ng-show="options.postOrCollect == 'collect'">Notify me as each item becomes available.</span></small>
                                     </div>
                                     <div class="field-row"><input name="postSingleOrCombine" value="combine" type="radio" id="combine" ng-model="options.postSingleOrCombine" /><label for="combine">Group my items.</label>
-                                        <br><span ng-show="options.postOrCollect == 'post'">Combine them into as few shipments as possible.</span>
-                                        <span ng-show="options.postOrCollect == 'collect'">Notify me when all my items are ready for collection.</span>
+                                        <br><small><span ng-show="options.postOrCollect == 'post'">Combine them into as few shipments as possible.</span>
+                                        <span ng-show="options.postOrCollect == 'collect'">Notify me when all my items are ready for collection.</span></small>
                                     </div>
                                 </div>
                             </div>
@@ -123,38 +123,38 @@
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'single'">
                                 <h3 class="inline clr">Sub total : <stong>186.48</stong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>10.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>196.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£196.48</strong> </h2>
                             </div>
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'firstClass' && options.postSingleOrCombine == 'combine'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>5.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>191.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£191.48</strong> </h2>
                             </div>
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'single'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>20.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>206.48</strong>0 </h2>
+                                <h2 class="inline clr">Total : <strong>£206.48</strong>0 </h2>
                             </div>
                             <div class="grand-total" ng-if="options.postOrCollect == 'post' && options.postalType == 'special' && options.postSingleOrCombine == 'combine'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>15.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>201.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£201.48</strong> </h2>
                             </div>
                             <div class="grand-total" ng-show="options.postOrCollect == 'collect'">
                                 <h3 class="inline clr">Sub total : <strong>186.48</strong> </h3><br>
                                 <h3 class="inline clr">Postage and packing : <strong>0.00</strong> </h3><br>
-                                <h2 class="inline clr">Total : <strong>186.48</strong> </h2>
+                                <h2 class="inline clr">Total : <strong>£186.48</strong> </h2>
                             </div>
                         </div>
                     </div>
                     <div class="checkout">
                         
                             <div class="button-holder">
+                                <a href="details-page.php" class="call-to-action-link secondary">Continue Shopping</a>
                                 <input type="submit" value="Purchase" />
                             </div>
                         
-                        <a href="details-page.php"
-                           class="call-to-action-link secondary">Continue Shopping</a>
+
                     </div>
                     <?php require_once('worldpay-images.php'); ?>
                 </div>

@@ -92,6 +92,10 @@ div[role=tabpanel] li {
     min-width: 98.2%;
 }
 
+.checkout {
+    padding: 1em 0;
+}
+
 /*
 Note:   the following styles - namespaced by '.basket-contents' will require changes to the HTML in the basket (which currently - incorrectly - uses dl, dd, and dt)
         The CSS below is not optimal either, and will need to be refactored for SASS
