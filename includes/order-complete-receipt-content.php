@@ -57,11 +57,19 @@
                             <h2 class="inline clr">Copy order</h2>
                         </div>
                         <div class="basket-item">
-                            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai...<br>
+                            <p> <strong>Title:</strong>&nbsp;&nbsp;Ho Shu-hing known as Ho Wai...<br>
                                 <strong>Order item ID: </strong>&nbsp;&nbsp;784985420<br>
                                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1983/48484<br>
-                                <strong>Certified copy: </strong>&nbsp;&nbsp;Yes<br>
+                                <strong>Delivery: </strong>&nbsp;&nbsp;All copying orders are grouped<br>
                                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
+                            <p>Your order will be dispatched by Monday 14 September 2015.</p>
+                        </div>
+                        <div class="basket-item">
+                            <p> <strong>Title:</strong>&nbsp;&nbsp;DIVISIONS: 42ND DIVISION: Reconnaissance Battalion<br>
+                                <strong>Order item ID: </strong>&nbsp;&nbsp;RC000041<br>
+                                <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 166/500<br>
+                                <strong>Delivery: </strong>&nbsp;&nbsp;All copying orders are grouped<br>
+                                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£114.00</p>
                             <p>Your order will be dispatched by Monday 14 September 2015.</p>
                         </div>
                         <div>
@@ -90,7 +98,9 @@
                                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
                         </div>
                         <div class="grand-total">
-                            <h2 class="inline clr"><strong>Total :</strong>&nbsp;&nbsp; £69.48 </h2>
+                            <h3><strong>Sub total :</strong>&nbsp;&nbsp; £69.48 </h3>
+                            <h3><strong>Post and packing :</strong>&nbsp;&nbsp; £10.00 </h3>
+                            <h2 class="inline"><strong>Total :</strong>&nbsp;&nbsp; £79.48 </h2>
                         </div>
                         <div class="page-check-form">
                             <p>If you were signed into your Discovery account when you made your order, your images are also available to download from your current orders.</p>

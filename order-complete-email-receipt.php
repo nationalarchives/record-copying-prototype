@@ -71,7 +71,7 @@
         </div>
         <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
             <h3><strong>Sub total :</strong>&nbsp;&nbsp; £69.48 </h3>
-            <h3><strong>Delivery :</strong>&nbsp;&nbsp; £10.00 </h3>
+            <h3><strong>Post and packing :</strong>&nbsp;&nbsp; £10.00 </h3>
             <h2 class="inline"><strong>Total :</strong>&nbsp;&nbsp; £79.48 </h2>
             <p> <strong>Transaction reference:</strong> I/116938265204068X </p>
         </div>
