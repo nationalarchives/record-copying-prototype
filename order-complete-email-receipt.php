@@ -29,11 +29,19 @@
             <h3>Copy order</h3>
         </div>
         <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
-            <p> <strong>Title:</strong>&nbsp;&nbsp;Naturalisation Certificate: Ho Shu-hing known as Ho Wai-ping known as Lily Ho known as...<br>
+            <p> <strong>Title:</strong>&nbsp;&nbsp;Ho Shu-hing known as Ho Wai-ping known as Lily Ho known as...<br>
                 <strong>Order item ID: </strong>&nbsp;&nbsp;784985420<br>
                 <strong>Catalogue reference: </strong>&nbsp;&nbsp;HO 334/1983/48484<br>
-                <strong>Certified copy: </strong>&nbsp;&nbsp;Yes<br>
+                <strong>Delivery: </strong>&nbsp;&nbsp;All copying orders are grouped<br>
                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
+            <p>Your order will be dispatched by Monday 14 September 2015.</p>
+        </div>
+        <div style="padding-top:10px; border-top:solid 1px #CCCCCC; ">
+            <p> <strong>Title:</strong>&nbsp;&nbsp;DIVISIONS: 42ND DIVISION: Reconnaissance Battalion<br>
+                <strong>Order item ID: </strong>&nbsp;&nbsp;RC000041<br>
+                <strong>Catalogue reference: </strong>&nbsp;&nbsp;WO 166/500<br>
+                <strong>Delivery: </strong>&nbsp;&nbsp;All copying orders are grouped<br>
+                <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£114.00</p>
             <p>Your order will be dispatched by Monday 14 September 2015.</p>
         </div>
         <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
@@ -62,7 +70,9 @@
                 <strong>Price:</strong>&nbsp;&nbsp;&nbsp;£25.00</p>
         </div>
         <div style="padding:10px 0; border-top:solid 3px #CCCCCC; ">
-            <h3><strong>Total :</strong>&nbsp;&nbsp; £69.48 </h3>
+            <h3><strong>Sub total :</strong>&nbsp;&nbsp; £69.48 </h3>
+            <h3><strong>Delivery :</strong>&nbsp;&nbsp; £10.00 </h3>
+            <h2 class="inline"><strong>Total :</strong>&nbsp;&nbsp; £79.48 </h2>
             <p> <strong>Transaction reference:</strong> I/116938265204068X </p>
         </div>
         <div style="padding:10px; margin-bottom:10px; background-color: #EEEEEE; ">
